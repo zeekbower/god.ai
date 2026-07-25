@@ -1,8 +1,9 @@
 "use client";
 
-import { Suspense } from "react";
+import { Suspense, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls } from "@react-three/drei";
+import type { OrbitControls as OrbitControlsImpl } from "three-stdlib";
 import Pyramid from "./Pyramid";
 import Mist from "./Mist";
 import StudioLight from "./StudioLight";
@@ -10,8 +11,14 @@ import Starfield from "./Starfield";
 import NearbyStars from "./NearbyStars";
 import ColoredLights from "./ColoredLights";
 import PostProcessing from "./PostProcessing";
+import CameraDirector from "./CameraDirector";
+import MemoryMonitor from "./MemoryMonitor";
+import EffectModeController from "./EffectModeController";
+import GalaxyMode from "./GalaxyMode";
 
 export default function Scene() {
+  const controlsRef = useRef<OrbitControlsImpl>(null);
+
   return (
     <Canvas
       className="absolute inset-0"
@@ -34,11 +41,13 @@ export default function Scene() {
         <NearbyStars />
         <Pyramid />
         <Mist />
+        <GalaxyMode />
       </Suspense>
 
       <PostProcessing />
 
       <OrbitControls
+        ref={controlsRef}
         enablePan={false}
         enableZoom
         minDistance={6}
@@ -47,9 +56,11 @@ export default function Scene() {
         maxPolarAngle={Math.PI * 0.58}
         enableDamping
         dampingFactor={0.08}
-        autoRotate
-        autoRotateSpeed={0.4}
+        autoRotate={false}
       />
+      <CameraDirector controlsRef={controlsRef} />
+      <MemoryMonitor />
+      <EffectModeController />
     </Canvas>
   );
 }

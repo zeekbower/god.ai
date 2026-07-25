@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 import { createBeamGradientTexture } from "@/lib/createBeamGradientTexture";
 import { getPyramidFaces, getTangentBasis } from "@/lib/pyramidFaces";
 import { hoverState } from "@/lib/hoverState";
+import { hashFrac, wander } from "@/lib/wander";
 
 const UP = new THREE.Vector3(0, 1, 0);
 
@@ -16,23 +17,8 @@ const MAX_WANDER = 0.05; // radians, how far a ray's direction may drift from it
 const BEAM_LENGTH = 16;
 const NEAR_RADIUS = 0.055;
 const FAR_RADIUS = 0.22;
-const OPACITY_MIN = 0.04;
-const OPACITY_MAX = 0.1;
-
-/** Deterministic pseudo-random value in [0, 1), seeded by an arbitrary number. */
-function hashFrac(n: number): number {
-  const s = Math.sin(n * 12.9898) * 43758.5453;
-  return s - Math.floor(s);
-}
-
-/** Smooth, bounded drift in roughly [-1, 1] — a convex sum of two sines, so it can never exceed its inputs. */
-function wander(t: number, seed: number): number {
-  const f1 = 0.11 + hashFrac(seed) * 0.05;
-  const f2 = 0.045 + hashFrac(seed + 1) * 0.03;
-  const p1 = hashFrac(seed + 2) * Math.PI * 2;
-  const p2 = hashFrac(seed + 3) * Math.PI * 2;
-  return Math.sin(t * f1 + p1) * 0.6 + Math.sin(t * f2 + p2) * 0.4;
-}
+const OPACITY_MIN = 0.02;
+const OPACITY_MAX = 0.05;
 
 type RayConfig = {
   normal: THREE.Vector3;
@@ -64,8 +50,8 @@ function Beam({ config, texture }: { config: RayConfig; texture: THREE.Texture }
       meshRef.current.quaternion.setFromUnitVectors(UP, direction);
     }
     if (matRef.current) {
-      const pulse = Math.sin(t * 1.6 + seed) * 0.015;
-      matRef.current.opacity = baseOpacity + hoverState.current * 0.175 + pulse;
+      const pulse = Math.sin(t * 1.6 + seed) * 0.0075;
+      matRef.current.opacity = baseOpacity + hoverState.current * 0.0875 + pulse;
     }
   });
 
@@ -88,6 +74,12 @@ function Beam({ config, texture }: { config: RayConfig; texture: THREE.Texture }
 
 export default function LightBeams({ origin }: { origin: THREE.Vector3 }) {
   const texture = useMemo(() => createBeamGradientTexture(), []);
+
+  useEffect(() => {
+    return () => {
+      texture.dispose();
+    };
+  }, [texture]);
 
   const configs = useMemo(() => {
     const rays: RayConfig[] = [];

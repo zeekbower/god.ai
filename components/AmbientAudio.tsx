@@ -2,7 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const EVOLVE_INTERVAL_MS = 60_000;
+const EVOLVE_INTERVAL_MS = 20_000;
+
+// Ambient audio clips that play alongside the procedural drone, one at a
+// time, in random order — never two at once.
+const TRACKS = ["/1.mp3", "/2.mp3", "/3.mp3", "/4.mp3"];
+const TRACK_VOLUME = 0.5;
 
 function rand(min: number, max: number): number {
   return min + Math.random() * (max - min);
@@ -13,13 +18,19 @@ function rand(min: number, max: number): number {
  * built with the Web Audio API — no external audio asset required. The graph is
  * built immediately on mount; browsers keep it suspended until a user gesture, so
  * we resume it on the first click/keypress anywhere on the page instead of gating
- * behind a dedicated button. Every ~60 seconds the drone frequencies and noise
+ * behind a dedicated button. Every ~20 seconds the drone frequencies and noise
  * filter drift by a small random amount so the soundscape never loops identically.
+ *
+ * Alongside the drone, a single audio clip from /public plays at a time, chosen
+ * at random from TRACKS; when it finishes, another random clip (never the same
+ * one twice in a row) starts — only ever one clip playing at once.
  */
 export default function AmbientAudio() {
   const [muted, setMuted] = useState(false);
   const ctxRef = useRef<AudioContext | null>(null);
   const masterGainRef = useRef<GainNode | null>(null);
+  const trackElRef = useRef<HTMLAudioElement | null>(null);
+  const lastTrackIndex = useRef(-1);
 
   useEffect(() => {
     const ctx = new AudioContext();
@@ -90,14 +101,35 @@ export default function AmbientAudio() {
     master.gain.setValueAtTime(0, ctx.currentTime);
     master.gain.linearRampToValueAtTime(0.55, ctx.currentTime + 3.5);
 
+    // One clip at a time: pick a random track (never repeating the previous
+    // one back-to-back) and play it; the "ended" listener chains the next.
+    const trackEl = new Audio();
+    trackEl.volume = TRACK_VOLUME;
+    trackElRef.current = trackEl;
+
+    const playRandomTrack = () => {
+      let idx = Math.floor(Math.random() * TRACKS.length);
+      if (TRACKS.length > 1 && idx === lastTrackIndex.current) {
+        idx = (idx + 1) % TRACKS.length;
+      }
+      lastTrackIndex.current = idx;
+      trackEl.src = TRACKS[idx];
+      trackEl.currentTime = 0;
+      trackEl.play().catch(() => {
+        // Blocked by autoplay policy until the user gesture below fires.
+      });
+    };
+    trackEl.addEventListener("ended", playRandomTrack);
+
     const resume = () => {
       if (ctx.state === "suspended") ctx.resume();
+      if (trackEl.paused) playRandomTrack();
     };
     resume();
     window.addEventListener("pointerdown", resume, { once: true });
     window.addEventListener("keydown", resume, { once: true });
 
-    // Every ~60s, drift the drones and filter by a small random amount so the
+    // Every ~20s, drift the drones and filter by a small random amount so the
     // ambience slowly evolves instead of looping identically forever.
     const evolve = () => {
       const now = ctx.currentTime;
@@ -117,6 +149,9 @@ export default function AmbientAudio() {
       window.removeEventListener("pointerdown", resume);
       window.removeEventListener("keydown", resume);
       window.clearInterval(evolveInterval);
+      trackEl.removeEventListener("ended", playRandomTrack);
+      trackEl.pause();
+      trackEl.src = "";
       ctx.close();
     };
   }, []);
@@ -132,6 +167,7 @@ export default function AmbientAudio() {
       gainParam.cancelScheduledValues(ctx.currentTime);
       gainParam.linearRampToValueAtTime(0, ctx.currentTime + 1);
     }
+    if (trackElRef.current) trackElRef.current.muted = !muted;
     setMuted((m) => !m);
   };
 
@@ -139,7 +175,7 @@ export default function AmbientAudio() {
     <button
       onClick={toggleMute}
       aria-label={muted ? "Unmute ambience" : "Mute ambience"}
-      className="absolute bottom-5 right-5 z-20 rounded-full border border-amber-200/30 px-4 py-2 text-xs tracking-widest text-amber-100/70 transition-colors hover:border-amber-200/70 hover:text-amber-100"
+      className="rounded-full border border-amber-200/30 px-4 py-2 text-xs tracking-widest text-amber-100/70 transition-colors hover:border-amber-200/70 hover:text-amber-100"
     >
       {muted ? "SOUND OFF" : "SOUND ON"}
     </button>

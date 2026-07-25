@@ -6,7 +6,7 @@ import { useFrame } from "@react-three/fiber";
 import { createPyramidGeometry } from "@/lib/createPyramidGeometry";
 import { createPcbBumpTexture } from "@/lib/createPcbBumpTexture";
 import { loadQuantizedPcbTexture } from "@/lib/loadQuantizedPcbTexture";
-import { getPyramidEyeCenter } from "@/lib/pyramidFaces";
+import { getPyramidEyeCenter, PYRAMID_GROUP_OFFSET_Y } from "@/lib/pyramidFaces";
 import { hoverState } from "@/lib/hoverState";
 import LightBeams from "./LightBeams";
 
@@ -26,12 +26,33 @@ export default function Pyramid() {
   useEffect(() => {
     let cancelled = false;
     loadQuantizedPcbTexture("/pcb-source.jpg").then((texture) => {
-      if (!cancelled) setPcbBumpMap(texture);
+      if (cancelled) {
+        // Component unmounted before the image finished loading — this texture
+        // never gets attached to anything, so nothing else will ever dispose it.
+        texture.dispose();
+      } else {
+        setPcbBumpMap(texture);
+      }
     });
     return () => {
       cancelled = true;
     };
   }, []);
+
+  // Whichever bump texture is currently active gets disposed the moment it's
+  // replaced (procedural -> loaded photo) or when the pyramid unmounts —
+  // otherwise the swapped-out GPU texture memory is never reclaimed.
+  useEffect(() => {
+    return () => {
+      pcbBumpMap.dispose();
+    };
+  }, [pcbBumpMap]);
+
+  useEffect(() => {
+    return () => {
+      geometry.dispose();
+    };
+  }, [geometry]);
 
   useFrame((state, delta) => {
     hoverState.current = THREE.MathUtils.damp(hoverState.current, hoverState.target, 4, delta);
@@ -53,7 +74,7 @@ export default function Pyramid() {
   return (
     <group
       ref={groupRef}
-      position={[0, -0.2, 0]}
+      position={[0, PYRAMID_GROUP_OFFSET_Y, 0]}
       onPointerOver={(e) => {
         e.stopPropagation();
         hoverState.target = 1;

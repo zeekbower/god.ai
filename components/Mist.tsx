@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 import { createMistTexture } from "@/lib/createMistTexture";
@@ -66,6 +66,14 @@ function MistLayer({
 
 export default function Mist() {
   const texture = useMemo(() => createMistTexture(), []);
+
+  // Shared across all layers via `map`; disposing a pointsMaterial on unmount
+  // doesn't dispose the texture it references, so it's done explicitly here.
+  useEffect(() => {
+    return () => {
+      texture.dispose();
+    };
+  }, [texture]);
 
   return (
     <group>

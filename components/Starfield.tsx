@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import * as THREE from "three";
 import { createStarfieldTexture } from "@/lib/createStarfieldTexture";
 
@@ -14,6 +14,12 @@ const SKY_RADIUS = 500;
  */
 export default function Starfield() {
   const texture = useMemo(() => createStarfieldTexture(), []);
+
+  useEffect(() => {
+    return () => {
+      texture.dispose();
+    };
+  }, [texture]);
 
   return (
     <mesh>

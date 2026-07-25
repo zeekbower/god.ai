@@ -2,6 +2,8 @@ import * as THREE from "three";
 
 export const PYRAMID_RADIUS = 1.55;
 export const PYRAMID_HEIGHT = 2.15;
+/** World-space Y offset of the pyramid's group (see Pyramid.tsx's root <group position>). */
+export const PYRAMID_GROUP_OFFSET_Y = -0.2;
 
 export type FaceData = {
   /** Outward-facing unit normal of this side face. */
