@@ -15,6 +15,11 @@ const FADE_MAX_S = 40;
 
 type Phase = "idle" | "fade-in" | "fade-out";
 
+// Top QWERTY row, Q through P, mapped to mode-array indices 0-9. Indices
+// beyond the current EFFECT_MODES length (Y-P, for now) simply have nothing
+// to select — the row is future-proofed up to 10 modes.
+const KEY_ROW = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"];
+
 function rand(min: number, max: number): number {
   return min + Math.random() * (max - min);
 }
@@ -33,6 +38,9 @@ function smoothstep(t: number): number {
  * post-processing mode: idle at normal for 2s, fade into a random mode
  * over 10-40s, then fade back out to normal over another 10-40s, and repeat.
  * Writes only to the shared effectModeState — no React re-renders.
+ *
+ * Q-P also each jump straight to fading in mode index 0-9 on keypress,
+ * pre-empting whatever phase the automatic cycle was in.
  */
 export default function EffectModeController() {
   const phase = useRef<Phase>("idle");
@@ -43,6 +51,23 @@ export default function EffectModeController() {
     if (process.env.NODE_ENV === "development") {
       (window as DebugWindow).__forceEffectMode = null;
     }
+  }, []);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.repeat) return;
+      const index = KEY_ROW.indexOf(e.key.toLowerCase());
+      if (index < 0 || index >= EFFECT_MODES.length) return;
+
+      effectModeState.activeMode = EFFECT_MODES[index];
+      effectModeState.intensity = 0;
+      phase.current = "fade-in";
+      phaseElapsed.current = 0;
+      phaseDuration.current = rand(FADE_MIN_S, FADE_MAX_S);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
   useFrame((_, delta) => {

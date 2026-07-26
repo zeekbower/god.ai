@@ -12,6 +12,7 @@ import NearbyStars from "./NearbyStars";
 import ColoredLights from "./ColoredLights";
 import PostProcessing from "./PostProcessing";
 import CameraDirector from "./CameraDirector";
+import ResponsiveCamera from "./ResponsiveCamera";
 import MemoryMonitor from "./MemoryMonitor";
 import EffectModeController from "./EffectModeController";
 import GalaxyMode from "./GalaxyMode";
@@ -59,6 +60,7 @@ export default function Scene() {
         autoRotate={false}
       />
       <CameraDirector controlsRef={controlsRef} />
+      <ResponsiveCamera />
       <MemoryMonitor />
       <EffectModeController />
     </Canvas>
