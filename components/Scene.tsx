@@ -37,7 +37,7 @@ export default function Scene() {
       <ColoredLights />
 
       <Suspense fallback={null}>
-        <Environment preset="studio" background={false} />
+        <Environment files="/hdri/studio_small_03_1k.hdr" background={false} />
         <Starfield />
         <NearbyStars />
         <Pyramid />

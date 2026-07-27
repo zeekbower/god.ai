@@ -42,7 +42,7 @@ export default function Home() {
         }}
       >
         <a
-          href="http://localhost:4568"
+          href="http://192.168.1.5:4568"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full border border-amber-200/30 px-3 py-1.5 text-[10px] tracking-widest text-amber-100/70 transition-colors hover:border-amber-200/70 hover:text-amber-100 sm:px-4 sm:py-2 sm:text-xs"
@@ -51,7 +51,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://localhost:4567"
+          href="http://192.168.1.5:4567"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full border border-amber-200/30 px-3 py-1.5 text-[10px] tracking-[0.1em] whitespace-nowrap text-amber-100/70 transition-colors hover:border-amber-200/70 hover:text-amber-100 sm:px-5 sm:py-2 sm:text-xs sm:tracking-[0.2em]"

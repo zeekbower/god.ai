@@ -1,4 +1,20 @@
-export const EFFECT_MODES = ["ascii", "glitch", "godrays", "radial-blur", "galaxy"] as const;
+export const EFFECT_MODES = [
+  "ascii",
+  "glitch",
+  "godrays",
+  "radial-blur",
+  "galaxy",
+  "fractal-pyramid",
+  "mandala",
+  "auroras",
+  "mandelbulb",
+  "gilded-plumes",
+  "sunset",
+  "fold-tunnel",
+  "sandefjord",
+  "mirror-cage",
+  "mandelbrot",
+] as const;
 export type EffectModeId = (typeof EFFECT_MODES)[number];
 
 /**

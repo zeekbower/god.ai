@@ -15,10 +15,10 @@ const FADE_MAX_S = 40;
 
 type Phase = "idle" | "fade-in" | "fade-out";
 
-// Top QWERTY row, Q through P, mapped to mode-array indices 0-9. Indices
-// beyond the current EFFECT_MODES length (Y-P, for now) simply have nothing
-// to select — the row is future-proofed up to 10 modes.
-const KEY_ROW = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"];
+// Full QWERTY layout read left-to-right, row by row, mapped to mode-array
+// indices 0-25. Keys beyond the current EFFECT_MODES length simply have
+// nothing to select — the layout is future-proofed up to 26 modes.
+const KEY_ROW = "qwertyuiopasdfghjklzxcvbnm".split("");
 
 function rand(min: number, max: number): number {
   return min + Math.random() * (max - min);
@@ -39,8 +39,9 @@ function smoothstep(t: number): number {
  * over 10-40s, then fade back out to normal over another 10-40s, and repeat.
  * Writes only to the shared effectModeState — no React re-renders.
  *
- * Q-P also each jump straight to fading in mode index 0-9 on keypress,
- * pre-empting whatever phase the automatic cycle was in.
+ * The QWERTY keys (row by row, left to right) also each jump straight to
+ * fading in the corresponding mode-array index on keypress, pre-empting
+ * whatever phase the automatic cycle was in.
  */
 export default function EffectModeController() {
   const phase = useRef<Phase>("idle");
