@@ -5,9 +5,8 @@
 // only needs to (re)create the accounts those files' control scripts talk to,
 // and write fresh <name>.env credential files with the new uids.
 //
-// Does NOT replay historical forum posts (introductions, cross-topic replies,
-// etc.) — bots start fresh on a new install. Trigger intros again manually if
-// you want them.
+// Does not itself replay historical forum posts — that's scripts/seed-posts.js,
+// which needs these accounts to already exist and should run right after this.
 //
 // Safe to re-run: skips any bot whose NodeBB account already exists (but still
 // rewrites its .env file, in case the password was lost).
@@ -167,8 +166,7 @@ db.init().then(async () => {
     fs.writeFileSync(envPath, lines.join('\n') + '\n');
   }
 
-  console.log(`\nDone. ${bots.length} bots processed.`);
-  console.log('Note: bots start fresh — no introduction posts were replayed. Trigger them');
-  console.log('manually (see each bot\'s .md file) if you want them live on the forum.');
+  console.log(`\nDone. ${bots.length} bots processed. Run scripts/seed-posts.js next to`);
+  console.log('replay each bot\'s forum history (introductions, debates, etc.).');
   process.exit(0);
 }).catch(e => { console.error(e); process.exit(1); });

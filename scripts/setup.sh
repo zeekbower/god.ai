@@ -213,6 +213,11 @@ log "Seeding bot accounts"
 node scripts/seed-bots.js
 
 # ---------------------------------------------------------------------------
+log "Replaying forum history (topics + posts)"
+# ---------------------------------------------------------------------------
+node scripts/seed-posts.js
+
+# ---------------------------------------------------------------------------
 log "Done"
 # ---------------------------------------------------------------------------
 echo ""
@@ -224,5 +229,5 @@ echo "                                              is a first install, then set
 echo "                                              in .env.local and re-run this script once"
 echo "                                              more to finish the Librarian wiki account)"
 echo ""
-echo "See SETUP.md for what this script does and doesn't cover (e.g. it does not"
-echo "replay historical forum posts — bots start fresh)."
+echo "See SETUP.md for what this script does and doesn't cover (e.g. reply-to"
+echo "quote threading between posts isn't preserved on replay)."
