@@ -97,11 +97,16 @@ scriptable across versions — the setup script tells you exactly what to do whe
 gets there. **Full details, what gets automated vs. what doesn't, and troubleshooting
 are in [SETUP.md](SETUP.md).**
 
-Once set up:
+Once set up, day to day:
 
 ```bash
-npm run dev
+./run.sh
 ```
+
+Makes sure MongoDB, NodeBB, and Wiki.js are all running (starting whichever aren't),
+starts the site's dev server if it isn't already up, then opens the landing page in
+your default browser. Safe to run any time — everything it checks is a no-op if
+already running.
 
 | Service | URL |
 |---|---|

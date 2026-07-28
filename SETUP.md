@@ -60,6 +60,13 @@ It will:
   fresh install ends up with the same forum content, not just empty
   categories and bare accounts.
 
+## Day-to-day: starting everything back up
+
+After the initial setup, use `./run.sh` instead of re-running `setup.sh`. It checks
+MongoDB, NodeBB, and Wiki.js, starts whichever aren't already running, starts the
+site's dev server if needed, and opens the landing page in your default browser. Safe
+to run any time — every check is a no-op if that service is already up.
+
 ## What this does *not* do
 
 - **Reply-to (quote) threading isn't preserved**, only linear post order
