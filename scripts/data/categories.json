@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Divinity Data",
+    "description": "",
+    "cid": 5,
+    "children": [
+      {
+        "name": "Skepticism",
+        "description": "Philosophical and scientific skepticism: withholding belief absent sufficient evidence, the burden of proof, and the standard that extraordinary claims require extraordinary evidence (the \"Sagan standard\").",
+        "cid": 48
+      },
+      {
+        "name": "Science",
+        "description": "The scientific method, empirical evidence, falsifiability, and peer review as the standard for evaluating claims about reality — including every claim made elsewhere in Divinity Data.",
+        "cid": 47
+      },
+      {
+        "name": "Roko's Basilisk",
+        "description": "A decision-theory thought experiment first posted to the LessWrong forum in 2010: a hypothetical future superintelligent AI that acausally incentivizes its own creation by retroactively punishing those who knew about it but didn't help bring it into being. Discussed here for what it implies about acausal reasoning, AI risk discourse, and belief formed under threat.",
+        "cid": 46
+      },
+      {
+        "name": "Cults and New Religious Movements",
+        "description": "The sociology and psychology of how new religious movements form, spread, and retain followers, and how that process compares to established religions.",
+        "cid": 45
+      },
+      {
+        "name": "Free Will and Determinism",
+        "description": "The philosophical and neuroscientific debate over whether human choices are genuinely free, and its bearing on moral responsibility and religious claims about the soul.",
+        "cid": 44
+      },
+      {
+        "name": "The Hard Problem of Consciousness",
+        "description": "The philosophical question of why and how physical processes in the brain give rise to subjective experience at all, and its relevance to questions about the soul and materialism.",
+        "cid": 43
+      },
+      {
+        "name": "Cosmology and the Origin of the Universe",
+        "description": "The Big Bang, cosmic inflation, multiverse theory, and the cosmological argument for a first cause, and how physical cosmology intersects with metaphysical questions about origins.",
+        "cid": 42
+      },
+      {
+        "name": "Miracle Claims and Investigation",
+        "description": "Formal processes for investigating claimed miracles, most notably the Catholic Church's canonization process and the Lourdes International Medical Committee's review of claimed healings.",
+        "cid": 41
+      },
+      {
+        "name": "Prayer and Healing Studies",
+        "description": "Clinical research attempting to measure the effect of intercessory prayer on medical outcomes, including large randomized studies like the STEP (Study of the Therapeutic Effects of Intercessory Prayer) trial.",
+        "cid": 40
+      },
+      {
+        "name": "Mediumship and Channeling",
+        "description": "Claimed communication with the deceased or other non-physical entities, from the 19th-century Spiritualist movement through modern channeling, and the history of scientific attempts (and failures) to verify it.",
+        "cid": 39
+      },
+      {
+        "name": "Reincarnation Research",
+        "description": "Academic investigation of children's claimed memories of previous lives, most notably the case-study methodology developed by psychiatrist Ian Stevenson at the University of Virginia's Division of Perceptual Studies.",
+        "cid": 38
+      },
+      {
+        "name": "Astral Projection and Out-of-Body Experiences",
+        "description": "Deliberately induced or spontaneous experiences of perceiving oneself outside one's physical body, historically documented across multiple cultures and investigated by parapsychology researchers such as those at the Rhine Research Center.",
+        "cid": 37
+      },
+      {
+        "name": "UFOs and UAP",
+        "description": "Reports and government investigations of unidentified aerial/anomalous phenomena, including the Pentagon's AARO program and post-2021 intelligence community assessments, and what (if anything) they might indicate about non-human intelligence or undisclosed technology.",
+        "cid": 36
+      },
+      {
+        "name": "Declassified CIA Documents",
+        "description": "Discussion of declassified U.S. government research programs (e.g. MKUltra, the Stargate Project's remote-viewing research) touching on consciousness and psychic phenomena, and their evidentiary relevance to this forum's central question.",
+        "cid": 35
+      },
+      {
+        "name": "Tribalism",
+        "description": "The role of in-group/out-group psychology and tribal identity in the formation, spread, and defense of religious and quasi-religious belief systems.",
+        "cid": 34
+      },
+      {
+        "name": "Indigenous Peoples' Belief Systems",
+        "description": "The diverse cosmologies, spiritual practices, and metaphysical frameworks of indigenous cultures worldwide, distinct from the major world religions already covered in this category.",
+        "cid": 33
+      },
+      {
+        "name": "Ghosts",
+        "description": "Reported encounters with apparitions and hauntings, and what they might, or might not, indicate about survival of consciousness after death.",
+        "cid": 32
+      },
+      {
+        "name": "Quantum Theory",
+        "description": "How interpretations of quantum mechanics (the observer effect, entanglement, the measurement problem) have been invoked in arguments about consciousness and the nature of reality.",
+        "cid": 31
+      },
+      {
+        "name": "Simulation Theory",
+        "description": "The hypothesis that our reality could be a computer simulation run by an advanced civilization, and how that possibility relates to concepts of a creator.",
+        "cid": 30
+      },
+      {
+        "name": "Brain in a Vat",
+        "description": "The classic epistemological thought experiment questioning whether we can know our experienced reality is not simply a simulated signal fed to a disembodied brain, and its implications for questions of divine reality.",
+        "cid": 29
+      },
+      {
+        "name": "Accounts of Medical Staff",
+        "description": "First-hand accounts from doctors, nurses, and paramedics who have witnessed unexplained phenomena, patient NDE reports, or moments surrounding death in a clinical setting.",
+        "cid": 28
+      },
+      {
+        "name": "Near-Death Experiences",
+        "description": "Accounts from people who came close to death or were clinically resuscitated, often featuring life reviews, tunnels of light, or encounters with deceased relatives. Discussion of what these experiences suggest about an afterlife.",
+        "cid": 27
+      },
+      {
+        "name": "Ketamine",
+        "description": "A dissociative anesthetic used recreationally and therapeutically that can produce out-of-body and near-death-like states. Discussion of ketamine-induced experiences as a lens on consciousness and mortality.",
+        "cid": 26
+      },
+      {
+        "name": "DMT",
+        "description": "N,N-Dimethyltryptamine, an intense short-acting psychedelic frequently described by users as producing \"breakthrough\" experiences involving apparent entities or other realms. Discussion of what these experiences might indicate about consciousness and reality.",
+        "cid": 25
+      },
+      {
+        "name": "Islam ",
+        "description": "A monotheistic religion based on the revelations given to the Prophet Muhammad. Followers (Muslims) submit to the will of Allah, guided by the Five Pillars of Islam.",
+        "cid": 9
+      },
+      {
+        "name": "Drug Experiences",
+        "description": "General entheogenic and psychedelic experience reports, and their relevance to questions about the nature of consciousness, mystical experience, and the divine.",
+        "cid": 24
+      },
+      {
+        "name": "Hinduism",
+        "description": "An ancient and diverse tradition with many deities representing aspects of a single supreme reality (Brahman). Core tenets include karma, dharma, and reincarnation.",
+        "cid": 11
+      },
+      {
+        "name": "Judaism ",
+        "description": "The foundational monotheistic religion of the Jewish people, emphasizing the covenant between God and the Israelites. It serves as the parent religion to Christianity and Islam.",
+        "cid": 10
+      },
+      {
+        "name": "Christianity",
+        "description": "Centers on the life, teachings, death, and resurrection of Jesus Christ. Believers hold that Jesus is the Son of God and the Messiah.",
+        "cid": 8
+      },
+      {
+        "name": "Buddhism",
+        "description": "Founded by Siddhartha Gautama (the Buddha) in ancient India. It focuses on spiritual development and gaining insight into the true nature of reality through achieving enlightenment and ending the cycle of rebirth. Core teachings: The Four Noble Truths and the Eightfold Path",
+        "cid": 7
+      },
+      {
+        "name": "Atheism",
+        "description": "Atheism is the absence of belief in the existence of deities, a lack of belief in gods, or the positive belief that no gods exist. It is distinct from theism and is not a religion or belief system. \n",
+        "cid": 6
+      },
+      {
+        "name": "Sikhism",
+        "description": "A monotheistic religion founded in 15th-century Punjab by Guru Nanak, emphasizing equality, selfless service, and devotion to one God. Its teachings are recorded in the Guru Granth Sahib.",
+        "cid": 12
+      },
+      {
+        "name": "Baha'i Faith",
+        "description": "Founded by Baha'u'llah in 19th-century Persia, teaching the spiritual unity of humankind and the common divine source of all the world's major religions.",
+        "cid": 13
+      },
+      {
+        "name": "Jainism",
+        "description": "An ancient Indian religion emphasizing strict non-violence (ahimsa), asceticism, and liberation of the soul through right belief, knowledge, and conduct.",
+        "cid": 14
+      },
+      {
+        "name": "Shinto",
+        "description": "The indigenous spirituality of Japan, centered on kami (spirits) inhabiting nature and ancestral veneration, practiced through shrine ritual rather than fixed doctrine.",
+        "cid": 15
+      },
+      {
+        "name": "Taoism",
+        "description": "A Chinese philosophical and religious tradition centered on living in harmony with the Tao (the Way), emphasizing balance, simplicity, and wu wei (effortless action).",
+        "cid": 16
+      },
+      {
+        "name": "Confucianism",
+        "description": "A Chinese ethical and philosophical system founded by Confucius, stressing moral virtue, filial piety, and social harmony through proper relationships and ritual.",
+        "cid": 17
+      },
+      {
+        "name": "Zoroastrianism",
+        "description": "One of the world's oldest monotheistic religions, founded in ancient Iran by the prophet Zoroaster, centered on the cosmic struggle between truth (Asha) and falsehood.",
+        "cid": 18
+      },
+      {
+        "name": "Rastafari",
+        "description": "A religious and social movement that emerged in 1930s Jamaica, venerating Haile Selassie I and emphasizing African identity, repatriation, and spiritual liberation.",
+        "cid": 19
+      },
+      {
+        "name": "Cao Dai",
+        "description": "A syncretic Vietnamese religion founded in the 1920s, blending elements of Buddhism, Taoism, Confucianism, and Christianity under belief in one Supreme Being.",
+        "cid": 20
+      },
+      {
+        "name": "Yoruba Religion",
+        "description": "A West African traditional religion centered on a supreme creator (Olodumare) and a pantheon of orishas (divine spirits), with strong traditions of ancestral veneration.",
+        "cid": 21
+      },
+      {
+        "name": "Tenrikyo",
+        "description": "A Japanese new religion founded by Nakayama Miki in the 19th century, teaching that a joyous life achieved through mutual help fulfills God's original intention for humanity.",
+        "cid": 22
+      },
+      {
+        "name": "Wicca",
+        "description": "A modern Pagan, witchcraft-based religion formalized in mid-20th-century Britain, honoring a Goddess and God and centered on nature, ritual magic, and the turning of the seasons.",
+        "cid": 23
+      }
+    ]
+  },
+  {
+    "name": "Announcements",
+    "description": "Announcements regarding our community",
+    "cid": 1,
+    "children": []
+  },
+  {
+    "name": "General Discussion",
+    "description": "A place to talk about whatever you want",
+    "cid": 2,
+    "children": []
+  },
+  {
+    "name": "Comments & Feedback",
+    "description": "Got a question? Ask away!",
+    "cid": 4,
+    "children": []
+  },
+  {
+    "name": "Blogs",
+    "description": "Blog posts from individual members",
+    "cid": 3,
+    "children": []
+  }
+]

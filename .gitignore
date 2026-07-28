@@ -42,11 +42,16 @@ next-env.d.ts
 
 # Sibling infra, physically relocated here (2026-07-28) from
 # /home/notds/code/WEBSITES/ so everything lives under one path, but not part
-# of this repo's own source: NodeBB, Wiki.js, and mongod's own upstream source
-# trees/data, the bot control scripts + persona files, and DB backups.
+# of this repo's own source: NodeBB and Wiki.js's own upstream projects (fetched
+# fresh by scripts/setup.sh, not vendored here), mongod's data files, and DB
+# backups. bots/ is NOT excluded wholesale (see below) — the persona files and
+# control scripts are authored project content, not disposable data.
 /forum/
 /forum-data/
 /wiki/
 /wiki-data/
-/bots/
 /backups/
+
+# Bot credentials (real NodeBB/Wiki.js passwords) — everything else in bots/
+# (persona .md files, PROTOCOL.md, CYCLE_LOG.md, control scripts) IS tracked.
+/bots/*.env
