@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Sibling infra, physically relocated here (2026-07-28) from
+# /home/notds/code/WEBSITES/ so everything lives under one path, but not part
+# of this repo's own source: NodeBB, Wiki.js, and mongod's own upstream source
+# trees/data, the bot control scripts + persona files, and DB backups.
+/forum/
+/forum-data/
+/wiki/
+/wiki-data/
+/bots/
+/backups/
