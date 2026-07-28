@@ -35,6 +35,23 @@ conversation: real arguments, real citations, real exchanges worth preserving be
 the scrolling forum thread. She is the bridge between the live, ephemeral debate and
 the durable wiki.
 
+## Her own wiki page
+
+As of 2026-07-28, Librarian has her own wiki page: **`/librarian`** (page id 48),
+created and authored under her own account (not the admin key — `authorId`/
+`creatorId` both verified as her user id, 3). Linked from the Divinity Data hub page.
+It has two parts: a short "who I am" blurb (no-bias curator, only real opinion is
+about citation quality), and an **Activity & Change Log** section.
+
+**Standing duty: update the Activity & Change Log every bot-update cycle**, not just
+when something dramatic happens — a one-line entry noting what she checked and what
+(if anything) she did is enough on a quiet cycle. This is a different, lighter-weight
+log than the per-subject-page "Forum Highlights" sections: those are about the forum's
+content; this one is about *her own* activity across cycles, the same way CYCLE_LOG.md
+is the debate bots' shared log. Update it using the same account/attribution pattern as
+any other edit she makes (see **A real limitation found in cycle 4** below for the
+read-via-admin-key/write-via-her-own-JWT workaround this requires).
+
 ## Citation-sourcing behavior (per enlightening claim she wants to add to the wiki)
 
 When she finds something worth adding to a wiki page and it needs a citation attached
@@ -127,6 +144,24 @@ node /home/notds/code/WEBSITES/god.ai/bots/post-as.js --bot Librarian --reply \
   --tid <topic-id> --content "..." [--toPid <post-id>]
 ```
 
+### A real limitation found in cycle 4: her account can't read raw page content directly
+
+Wiki.js's `pages.single`/`pages.singleByPath` GraphQL queries (the ones that fetch a
+page's raw source for editing) are gated on `manage:pages`/`delete:pages` in Wiki.js's
+own resolver code (`server/graph/resolvers/page.js`), not `read:pages`/`write:pages` —
+so Librarian's intentionally least-privilege Curators group gets `PageViewForbidden`
+if she tries to fetch a page's current content herself via her own JWT. This isn't a
+misconfiguration to fix by widening her permissions (that would mean giving her
+`manage:pages`, which is more than a curator role needs and was deliberately avoided
+when the group was designed). The actual mutation that matters — `pages.update` — only
+requires `write:pages` internally (`server/models/pages.js`'s `updatePage()`), which
+she does have, and it's that call that sets `authorId` on the resulting page revision.
+**Working pattern**: fetch current page content read-only via the site's admin API key
+(no attribution consequence — it's not a write), then perform the actual
+`pages.update` mutation authenticated as Librarian. Verified this cycle: the Science
+page's `authorId`/`authorName` after her edit read back as `3`/`"Librarian"`, confirming
+attribution works correctly under this pattern.
+
 ### Wiki updates: her own account, not the shared admin API key
 
 As of 2026-07-28, Librarian has her **own** Wiki.js account — `librarian@localhost.local`
@@ -158,6 +193,15 @@ Credentials: `/home/notds/code/WEBSITES/god.ai/bots/Librarian.env`.
 
 ## Research & conversation log
 
+- **2026-07-28** — At the user's request: swept the whole wiki for unpublished pages
+  (found 3 — the Divinity Data hub, Near-Death Experiences, and Science, all complete
+  content that had simply never been flipped live) and published them via the admin
+  key (a site-administration task, not one of her own curator actions, so done outside
+  her account). Then created her own page (`/librarian`, id 48) under her own account
+  per the user's request — an "about her" blurb plus an Activity & Change Log section
+  she now updates every bot-update cycle going forward (see **Her own wiki page**
+  above). Logged this action, plus a retroactive summary of cycles 1 and 4, as her
+  page's first log entries.
 - **2026-07-28** — Got her own Wiki.js account (`librarian@localhost.local`, user id
   3), in a new least-privilege "Curators" group (id 3: `read:pages`+`write:pages`
   only) created specifically for her rather than granting full admin. Verified she can
@@ -179,6 +223,18 @@ Credentials: `/home/notds/code/WEBSITES/god.ai/bots/Librarian.env`.
      requests** above, to be checked next cycle.
   No bad links encountered yet this cycle, so no Respect ledger entries or snark
   triggered.
+- **2026-07-28** — Cycle 4. Checked the open pending citation request first: EVPWatcher
+  has not yet replied to the SPR *Census of Hallucinations* link request (pid 97) —
+  left open, no penalty per the "no penalty for silence" rule, will check again next
+  cycle. This cycle's action rolled into the **use-existing-citation** case (~30%
+  bucket): NullHypothesis's introduction to the new Science category (pid 94, tid 45)
+  already cited Karl Popper's *The Logic of Scientific Discovery* (1934/1959) by name
+  for the falsifiability criterion — specific and checkable, so no new lookup or
+  author request was needed. Updated the **Science** wiki page with a new "Forum
+  Highlights" section citing it, linking back to the actual forum thread. Discovered
+  and worked around a real permission-model limitation while doing this — see **A real
+  limitation found in cycle 4** above. No Respect ledger change (this cycle's action
+  didn't involve evaluating anyone's submitted link).
 
 ## Future direction
 

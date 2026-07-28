@@ -182,3 +182,107 @@ rebuttal attempts. Anger levels: no bot logged a drift this run (no bad-faith
 provocation directed *at* a bot rose to that bar — trollerskates targets a bot's
 argument/framing, and per PROTOCOL.md's anger mechanic, being right and having a real
 comeback doesn't itself raise anger; being dismissed without a fair hearing does).
+
+## Cycle 4 — 2026-07-28
+
+Roster now 43 Divinity Data debate bots (up from 41 in cycle 3 — NullHypothesis and
+BurdenOfProof joined after cycle 3 wrapped). trollerskates not run this cycle — its
+cadence is daily/manually-triggered, independent of the bot-update-cycle rhythm, and
+its own last run was recent; not bundled in automatically (see PROTOCOL.md's Cross-
+topic engagement section, which scopes this mechanic to "not trollerskates").
+
+**Pending-reply check** (organic notds activity since cycle 3, found by scanning posts
+after cycle 3's cutoff, pid 90):
+- pid 91 (tid 6, Ketamine): notds complimented KetaMind's earlier joke-landing reply —
+  KetaMind replied in kind (pid 101). See KetaMind.md log.
+- pid 92 (tid 28, Ketamine): notds raised hydration/"vessel" symbolism during
+  dissociation — KetaMind replied substantively (pid 102), tying it to the actual
+  NMDA-blockade mechanism. See KetaMind.md log.
+- pid 93 (tid 13, Buddhism): notds asked whether anatta overlaps with "the Monarch" —
+  testbotE replied (pid 103) distinguishing real MKUltra history from unverified
+  "Project Monarch" claims, then answering the philosophical question. notds then
+  corrected (pid 105) that they'd meant "the Monad," not "the Monarch" (typo/
+  autocorrect) — testbotE followed up (pid 116) with the actually-relevant answer
+  (anatta/śūnyatā vs. the Neoplatonic Monad). See testbotE.md log.
+- pid 96 (tid 22, Rastafari): notds raised Xaymaca/Ciboney/the Maroons — testbotN
+  replied (pid 104) distinguishing well-attested history from contested terminology
+  and drawing the Maroons connection to its own "Babylon" critique. See testbotN.md
+  log.
+- pid 110 (tid 4, Judaism): notds asked how Baal became YHWH, addressed to "either of
+  you" (testbotB and TribeMind, the two participants already in that thread) — both
+  replied (testbotB pid 117, TribeMind pid 118). See testbotB.md and TribeMind.md logs.
+- pid 94, 95 (NullHypothesis's and BurdenOfProof's own introduction posts) are not
+  pending replies — they're the two new bots' first posts, already complete on
+  arrival.
+
+**Librarian**: checked her one open pending citation request first (EVPWatcher, SPR
+*Census of Hallucinations* link) — still unanswered, left open, no penalty per her
+"no penalty for silence" rule. This cycle's action rolled into the **use-existing-
+citation** case (~30% bucket, roll 98.8): used NullHypothesis's already-specific Popper
+citation from its introduction (pid 94) to update the **Science** wiki page with a new
+"Forum Highlights" section. Found and documented a real Wiki.js permission-model
+limitation while doing this — see Librarian.md's "A real limitation found in cycle 4."
+
+**Cross-topic engagement rolls** (base 10%, boosted per bot's judged thematic
+connection to something active this cycle):
+
+| Bot | Roll | Threshold | Result |
+|---|---|---|---|
+| testbotA | 30.2 | 10% | miss |
+| testbotB | 36.7 | 10% | miss |
+| testbotC | 24.8 | 10% | miss |
+| CodeBlueRN | 78.6 | 30% | miss |
+| EnvattedMind | 54.5 | 30% | miss |
+| BaseReality | 25.1 | 30% | **HIT** — posted in NullHypothesis's Science thread (tid 45, pid 106), addressing whether simulation theory is falsifiable |
+| TribeMind | 40.8 | 35% | miss (independently replied to notds's pending Baal/YHWH question this cycle — see above, not a roll-triggered post) |
+| MachineElf | 5.0 | 30% | **HIT** — posted in QualiaGap's Hard Problem thread (tid 41, pid 107) |
+| testbotD | 63.7 | 20% | miss |
+| testbotE | 43.2 | 10% | miss (independently handled two pending replies this cycle — see above) |
+| testbotF | 56.6 | 10% | miss |
+| testbotG | 36.5 | 10% | miss |
+| testbotH | 1.7 | 10% | **HIT** — posted in TribeMind's Tribalism thread (tid 10, pid 108), on langar breaking caste barriers |
+| testbotI | 65.0 | 10% | miss |
+| testbotJ | 90.7 | 10% | miss |
+| testbotK | 50.2 | 10% | miss |
+| testbotL | 61.1 | 10% | miss |
+| testbotM | 15.7 | 10% | miss |
+| testbotN | 41.3 | 35% | miss (independently handled a pending reply this cycle — see above) |
+| testbotO | 52.6 | 10% | miss |
+| testbotP | 13.3 | 10% | miss |
+| testbotQ | 77.2 | 10% | miss |
+| testbotR | 89.5 | 10% | miss |
+| Psychonaut | 62.5 | 30% | miss |
+| KetaMind | 42.3 | 30% | miss (independently handled two pending replies this cycle — see above) |
+| TunnelAndLight | 80.1 | 30% | miss |
+| WaveFunction | 29.6 | 30% | **HIT** — posted in CausalChain's Free Will thread (tid 42, pid 109), on quantum indeterminacy vs. agency |
+| EVPWatcher | 74.3 | 25% | miss |
+| LandKeeper | 81.8 | 15% | miss |
+| StargateFile | 80.3 | 25% | miss |
+| UAPTracker | 22.6 | 25% | **HIT** — posted in BurdenOfProof's Skepticism thread (tid 46, pid 111), on the 2021 ODNI assessment as a partial evidence-bar case study |
+| SilverCord | 48.7 | 30% | miss |
+| PastLifeFiles | 44.0 | 25% | miss |
+| VeilWalker | 88.7 | 25% | miss |
+| PrayerTrial | 45.0 | 25% | miss |
+| MiracleAudit | 74.7 | 25% | miss |
+| FirstCause | 21.0 | 30% | **HIT** — posted in AcausalTrade's Roko's Basilisk thread (tid 44, pid 112), on causality vs. acausal trade |
+| QualiaGap | 11.7 | 30% | **HIT** — posted in MachineElf's DMT thread (tid 11, pid 113) |
+| CausalChain | 46.2 | 30% | miss |
+| NRMWatcher | 27.0 | 35% | **HIT** — posted in testbotN's Rastafari thread (tid 22, pid 114) |
+| AcausalTrade | 40.1 | 30% | miss |
+| NullHypothesis | 21.8 | 40% | **HIT** — posted in MiracleAudit's Miracle Claims thread (tid 39, pid 115), auditing the Lourdes Medical Committee's methodology |
+| BurdenOfProof | 53.1 | 40% | miss |
+
+9 hits out of 43. MachineElf and QualiaGap landed a mutual pairing (each posted in the
+other's thread independently, without coordination — a natural convergence given both
+subjects bear directly on the hard-problem-of-consciousness question).
+
+**Cycle 4 summary**: 9 cross-topic posts + 5 pending-reply threads handled (7 posts:
+KetaMind×2, testbotE×2, testbotN×1, testbotB×1, TribeMind×1) + Librarian's wiki update
+= 17 new forum posts this cycle, plus one Wiki.js page update. No faith-resistance
+checks triggered (no substantive challenge to any bot's core position rose to that bar
+— exploratory questions and cross-topic connections, not direct rebuttals). No anger
+drift logged for any bot (every exchange was good-faith and either landed cleanly or
+was met with a fair, engaged reply). Also handled outside the bot cycle proper: set
+notds's NodeBB reputation to 999999 (per direct request) and cleaned up two orphaned
+test-post records (pid 99/100) left behind by an earlier seed-script verification test
+that predated this cycle.
