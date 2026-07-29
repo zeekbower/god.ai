@@ -16,6 +16,7 @@ export const FoldTunnelShader = {
     tDiffuse: { value: null },
     uMix: { value: 0 },
     uTime: { value: 0 },
+    uSpin: { value: 0 },
     uResolution: { value: new THREE.Vector2(1, 1) },
   },
   vertexShader: /* glsl */ `
@@ -29,12 +30,22 @@ export const FoldTunnelShader = {
     uniform sampler2D tDiffuse;
     uniform float uMix;
     uniform float uTime;
+    uniform float uSpin;
     uniform vec2 uResolution;
     varying vec2 vUv;
+
+    // No native camera-orbit angle in this shader (the tunnel is a straight
+    // flythrough) — spin instead rolls the view around the tunnel's forward
+    // axis, like turning your head while flying through it.
+    vec2 spinRotate(vec2 p, float a) {
+      float c = cos(a), s = sin(a);
+      return mat2(c, -s, s, c) * p;
+    }
 
     void mainImage(out vec4 O, vec2 C) {
         float i = 0.0, d, z = 0.0;
         vec3 p, r = vec3(uResolution, 1.0);
+        C.xy = spinRotate(C.xy - .5*r.xy, uSpin) + .5*r.xy;
         O = vec4(0.0);
         for(; i++<1e2; O+=1./d){
             p=z*normalize(vec3(C.xy-.5*r.xy,r.y));

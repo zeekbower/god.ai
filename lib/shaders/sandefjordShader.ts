@@ -15,6 +15,7 @@ export const SandefjordShader = {
     tDiffuse: { value: null },
     uMix: { value: 0 },
     uTime: { value: 0 },
+    uSpin: { value: 0 },
     uResolution: { value: new THREE.Vector2(1, 1) },
   },
   vertexShader: /* glsl */ `
@@ -28,6 +29,7 @@ export const SandefjordShader = {
     uniform sampler2D tDiffuse;
     uniform float uMix;
     uniform float uTime;
+    uniform float uSpin;
     uniform vec2 uResolution;
     varying vec2 vUv;
 
@@ -39,7 +41,7 @@ export const SandefjordShader = {
 
         for (; i++ < 123. && g < 20.;) {
             vec3 p = vec3(u * g, g - 11.);
-            float a = uTime * .1, s = sin(a), c = cos(a);
+            float a = uTime * .1 + uSpin, s = sin(a), c = cos(a);
             p.xz *= mat2(c, -s, s, c);
 
             e = 2.;

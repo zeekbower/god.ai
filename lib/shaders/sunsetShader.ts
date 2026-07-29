@@ -15,6 +15,7 @@ export const SunsetShader = {
     tDiffuse: { value: null },
     uMix: { value: 0 },
     uTime: { value: 0 },
+    uSpin: { value: 0 },
     uResolution: { value: new THREE.Vector2(1, 1) },
   },
   vertexShader: /* glsl */ `
@@ -28,11 +29,20 @@ export const SunsetShader = {
     uniform sampler2D tDiffuse;
     uniform float uMix;
     uniform float uTime;
+    uniform float uSpin;
     uniform vec2 uResolution;
     varying vec2 vUv;
 
+    // No native camera-orbit angle here either — spin rolls the view around
+    // the forward axis, same approach as fold-tunnel.
+    vec2 spinRotate(vec2 p, float a) {
+      float c = cos(a), s = sin(a);
+      return mat2(c, -s, s, c) * p;
+    }
+
     void mainImage(out vec4 O, vec2 I)
     {
+        I = spinRotate(I - .5*uResolution.xy, uSpin) + .5*uResolution.xy;
         float t = uTime,
         i = 0.0,
         z = 0.0,

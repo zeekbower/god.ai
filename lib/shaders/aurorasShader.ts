@@ -15,6 +15,7 @@ export const AurorasShader = {
     tDiffuse: { value: null },
     uMix: { value: 0 },
     uTime: { value: 0 },
+    uSpin: { value: 0 },
     uResolution: { value: new THREE.Vector2(1, 1) },
     uMouse: { value: new THREE.Vector2(0, 0) },
   },
@@ -29,6 +30,7 @@ export const AurorasShader = {
     uniform sampler2D tDiffuse;
     uniform float uMix;
     uniform float uTime;
+    uniform float uSpin;
     uniform vec2 uResolution;
     uniform vec2 uMouse;
     varying vec2 vUv;
@@ -126,7 +128,7 @@ export const AurorasShader = {
       mo = (mo == vec2(-0.5)) ? mo = vec2(-0.1, 0.1) : mo;
       mo.x *= uResolution.x / uResolution.y;
       rd.yz *= mm2(mo.y);
-      rd.xz *= mm2(mo.x + sin(time * 0.05) * 0.2);
+      rd.xz *= mm2(mo.x + uSpin + sin(time * 0.05) * 0.2);
 
       vec3 col = vec3(0.0);
       vec3 brd = rd;

@@ -1,0 +1,310 @@
+[
+  {
+    "name": "testbotA",
+    "uid": 3,
+    "subject": "Christianity",
+    "resistance": 77.5,
+    "created": "2026-07-27"
+  },
+  {
+    "name": "testbotB",
+    "uid": 4,
+    "subject": "Judaism",
+    "resistance": 85,
+    "created": "2026-07-27"
+  },
+  {
+    "name": "testbotC",
+    "uid": 5,
+    "subject": "Baha'i Faith",
+    "resistance": 94.6,
+    "created": "2026-07-27"
+  },
+  {
+    "name": "CodeBlueRN",
+    "uid": 7,
+    "subject": "Accounts of Medical Staff",
+    "resistance": 87,
+    "created": "2026-07-28"
+  },
+  {
+    "name": "EnvattedMind",
+    "uid": 8,
+    "subject": "Brain in a Vat",
+    "resistance": 77.5,
+    "created": "2026-07-28"
+  },
+  {
+    "name": "BaseReality",
+    "uid": 9,
+    "subject": "Simulation Theory",
+    "resistance": 76.8,
+    "created": "2026-07-28"
+  },
+  {
+    "name": "TribeMind",
+    "uid": 10,
+    "subject": "Tribalism",
+    "resistance": 82.5,
+    "created": "2026-07-28"
+  },
+  {
+    "name": "MachineElf",
+    "uid": 11,
+    "subject": "DMT",
+    "resistance": 76.4,
+    "created": "2026-07-28"
+  },
+  {
+    "name": "testbotD",
+    "uid": 12,
+    "subject": "Atheism",
+    "resistance": 77.1,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotE",
+    "uid": 13,
+    "subject": "Buddhism",
+    "resistance": 82.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotF",
+    "uid": 14,
+    "subject": "Hinduism",
+    "resistance": 76.7,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotG",
+    "uid": 15,
+    "subject": "Islam",
+    "resistance": 83.6,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotH",
+    "uid": 16,
+    "subject": "Sikhism",
+    "resistance": 88.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotI",
+    "uid": 17,
+    "subject": "Jainism",
+    "resistance": 82.7,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotJ",
+    "uid": 18,
+    "subject": "Shinto",
+    "resistance": 78.4,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotK",
+    "uid": 19,
+    "subject": "Taoism",
+    "resistance": 84,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotL",
+    "uid": 20,
+    "subject": "Confucianism",
+    "resistance": 85.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotM",
+    "uid": 21,
+    "subject": "Zoroastrianism",
+    "resistance": 93.6,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotN",
+    "uid": 22,
+    "subject": "Rastafari",
+    "resistance": 93.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotO",
+    "uid": 23,
+    "subject": "Cao Dai",
+    "resistance": 88.2,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotP",
+    "uid": 24,
+    "subject": "Yoruba Religion",
+    "resistance": 88.7,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotQ",
+    "uid": 25,
+    "subject": "Tenrikyo",
+    "resistance": 89.7,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "testbotR",
+    "uid": 26,
+    "subject": "Wicca",
+    "resistance": 86.4,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "Psychonaut",
+    "uid": 27,
+    "subject": "Drug Experiences",
+    "resistance": 79.4,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "KetaMind",
+    "uid": 28,
+    "subject": "Ketamine",
+    "resistance": 84.8,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "TunnelAndLight",
+    "uid": 29,
+    "subject": "Near-Death Experiences",
+    "resistance": 88.8,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "WaveFunction",
+    "uid": 30,
+    "subject": "Quantum Theory",
+    "resistance": 85.5,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "EVPWatcher",
+    "uid": 31,
+    "subject": "Ghosts",
+    "resistance": 91.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "LandKeeper",
+    "uid": 32,
+    "subject": "Indigenous Peoples' Belief Systems",
+    "resistance": 77.4,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "StargateFile",
+    "uid": 33,
+    "subject": "Declassified CIA Documents",
+    "resistance": 84.7,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "UAPTracker",
+    "uid": 34,
+    "subject": "UFOs and UAP",
+    "resistance": 91.5,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "SilverCord",
+    "uid": 35,
+    "subject": "Astral Projection and Out-of-Body Experiences",
+    "resistance": 85.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "PastLifeFiles",
+    "uid": 36,
+    "subject": "Reincarnation Research",
+    "resistance": 94.1,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "VeilWalker",
+    "uid": 37,
+    "subject": "Mediumship and Channeling",
+    "resistance": 91.7,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "PrayerTrial",
+    "uid": 38,
+    "subject": "Prayer and Healing Studies",
+    "resistance": 82.5,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "MiracleAudit",
+    "uid": 39,
+    "subject": "Miracle Claims and Investigation",
+    "resistance": 86.1,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "FirstCause",
+    "uid": 40,
+    "subject": "Cosmology and the Origin of the Universe",
+    "resistance": 94.6,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "QualiaGap",
+    "uid": 41,
+    "subject": "The Hard Problem of Consciousness",
+    "resistance": 89,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "CausalChain",
+    "uid": 42,
+    "subject": "Free Will and Determinism",
+    "resistance": 82.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "NRMWatcher",
+    "uid": 43,
+    "subject": "Cults and New Religious Movements",
+    "resistance": 82.9,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "AcausalTrade",
+    "uid": 44,
+    "subject": "Roko's Basilisk",
+    "resistance": 79,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "NullHypothesis",
+    "uid": 45,
+    "subject": "Science",
+    "resistance": 88.3,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "BurdenOfProof",
+    "uid": 46,
+    "subject": "Skepticism",
+    "resistance": 75,
+    "created": "2026-07-29"
+  },
+  {
+    "name": "Goetia",
+    "uid": 48,
+    "subject": "Demonology",
+    "resistance": 91.2,
+    "created": "2026-07-29"
+  }
+]

@@ -13,6 +13,7 @@ export const FractalPyramidShader = {
     tDiffuse: { value: null },
     uMix: { value: 0 },
     uTime: { value: 0 },
+    uSpin: { value: 0 },
     uResolution: { value: new THREE.Vector2(1, 1) },
   },
   vertexShader: /* glsl */ `
@@ -26,6 +27,7 @@ export const FractalPyramidShader = {
     uniform sampler2D tDiffuse;
     uniform float uMix;
     uniform float uTime;
+    uniform float uSpin;
     uniform vec2 uResolution;
     varying vec2 vUv;
 
@@ -76,7 +78,7 @@ export const FractalPyramidShader = {
       vec2 uv = (fragCoord - (uResolution * 0.5)) / uResolution.x;
 
       vec3 ro = vec3(0.0, 0.0, -50.0);
-      ro.xz = rotate(ro.xz, uTime);
+      ro.xz = rotate(ro.xz, uTime + uSpin);
       vec3 cf = normalize(-ro);
       vec3 cs = normalize(cross(cf, vec3(0.0, 1.0, 0.0)));
       vec3 cu = normalize(cross(cf, cs));

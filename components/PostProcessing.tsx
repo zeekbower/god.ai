@@ -23,6 +23,7 @@ import { SandefjordShader } from "@/lib/shaders/sandefjordShader";
 import { MirrorCageShader } from "@/lib/shaders/mirrorCageShader";
 import { MandelbrotShader } from "@/lib/shaders/mandelbrotShader";
 import { effectModeState } from "@/lib/effectModeState";
+import { spinState } from "@/lib/spinState";
 import { getPyramidEyeCenter, PYRAMID_GROUP_OFFSET_Y } from "@/lib/pyramidFaces";
 
 const eyeCenterLocal = getPyramidEyeCenter(3);
@@ -186,30 +187,37 @@ export default function PostProcessing() {
 
       fractalPyramidPass.uniforms.uMix.value = activeMode === "fractal-pyramid" ? intensity : 0;
       fractalPyramidPass.uniforms.uTime.value = state.clock.elapsedTime;
+      fractalPyramidPass.uniforms.uSpin.value = spinState.angle;
 
       mandalaPass.uniforms.uMix.value = activeMode === "mandala" ? intensity : 0;
       mandalaPass.uniforms.uTime.value = state.clock.elapsedTime;
 
       aurorasPass.uniforms.uMix.value = activeMode === "auroras" ? intensity : 0;
       aurorasPass.uniforms.uTime.value = state.clock.elapsedTime;
+      aurorasPass.uniforms.uSpin.value = spinState.angle;
 
       mandelbulbPass.uniforms.uMix.value = activeMode === "mandelbulb" ? intensity : 0;
       mandelbulbPass.uniforms.uTime.value = state.clock.elapsedTime;
+      mandelbulbPass.uniforms.uSpin.value = spinState.angle;
 
       gildedPlumesPass.uniforms.uMix.value = activeMode === "gilded-plumes" ? intensity : 0;
       gildedPlumesPass.uniforms.uTime.value = state.clock.elapsedTime;
 
       sunsetPass.uniforms.uMix.value = activeMode === "sunset" ? intensity : 0;
       sunsetPass.uniforms.uTime.value = state.clock.elapsedTime;
+      sunsetPass.uniforms.uSpin.value = spinState.angle;
 
       foldTunnelPass.uniforms.uMix.value = activeMode === "fold-tunnel" ? intensity : 0;
       foldTunnelPass.uniforms.uTime.value = state.clock.elapsedTime;
+      foldTunnelPass.uniforms.uSpin.value = spinState.angle;
 
       sandefjordPass.uniforms.uMix.value = activeMode === "sandefjord" ? intensity : 0;
       sandefjordPass.uniforms.uTime.value = state.clock.elapsedTime;
+      sandefjordPass.uniforms.uSpin.value = spinState.angle;
 
       mirrorCagePass.uniforms.uMix.value = activeMode === "mirror-cage" ? intensity : 0;
       mirrorCagePass.uniforms.uTime.value = state.clock.elapsedTime;
+      mirrorCagePass.uniforms.uSpin.value = spinState.angle;
 
       mandelbrotPass.uniforms.uMix.value = activeMode === "mandelbrot" ? intensity : 0;
       mandelbrotPass.uniforms.uTime.value = state.clock.elapsedTime;

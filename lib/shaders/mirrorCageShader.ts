@@ -16,6 +16,7 @@ export const MirrorCageShader = {
     tDiffuse: { value: null },
     uMix: { value: 0 },
     uTime: { value: 0 },
+    uSpin: { value: 0 },
     uResolution: { value: new THREE.Vector2(1, 1) },
   },
   vertexShader: /* glsl */ `
@@ -29,6 +30,7 @@ export const MirrorCageShader = {
     uniform sampler2D tDiffuse;
     uniform float uMix;
     uniform float uTime;
+    uniform float uSpin;
     uniform vec2 uResolution;
     varying vec2 vUv;
 
@@ -40,7 +42,7 @@ export const MirrorCageShader = {
             O += exp(t-=v*l*.8)/v/(abs(sin(p.z*.5-uTime+vec4(0,.2,.4,0)))+.1))
             p = t*normalize(vec3(I+I,0)-uResolution.xyy),
             p.z -= .1,
-            l = dot(p = reflect(p,normalize(sin(uTime*.05+V))),p),
+            l = dot(p = reflect(p,normalize(sin(uTime*.05+uSpin+V))),p),
             v = abs(length(1.-abs(mod(p = round(p/l*24.)/24.,4.).xy -2.)
                 + .6*cos(p.z/V.xy))-.2)+.01;
         O = tanh(O/2e3);

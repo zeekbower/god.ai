@@ -15,6 +15,7 @@ export const MandelbulbShader = {
     tDiffuse: { value: null },
     uMix: { value: 0 },
     uTime: { value: 0 },
+    uSpin: { value: 0 },
     uResolution: { value: new THREE.Vector2(1, 1) },
   },
   vertexShader: /* glsl */ `
@@ -28,6 +29,7 @@ export const MandelbulbShader = {
     uniform sampler2D tDiffuse;
     uniform float uMix;
     uniform float uTime;
+    uniform float uSpin;
     uniform vec2 uResolution;
     varying vec2 vUv;
 
@@ -250,7 +252,7 @@ export const MandelbulbShader = {
     }
 
     vec3 effect(vec2 p) {
-      g_rot = rot_x(0.2*TIME)*rot_y(0.3*TIME);
+      g_rot = rot_x(0.2*TIME)*rot_y(0.3*TIME + uSpin);
       vec3 ro = 0.6*vec3(0.0, 2.0, 5.0);
       const vec3 la = vec3(0.0, 0.0, 0.0);
       const vec3 up = vec3(0.0, 1.0, 0.0);

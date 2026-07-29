@@ -5,6 +5,7 @@ import * as THREE from "three";
 import { useFrame, useThree } from "@react-three/fiber";
 import type { OrbitControls as OrbitControlsImpl } from "three-stdlib";
 import { wander } from "@/lib/wander";
+import { spinState } from "@/lib/spinState";
 
 const BASE_SPIN_SPEED = 0.05; // rad/sec magnitude the horizontal spin settles back to when idle
 const SPIN_DECAY_TIME = 4; // seconds for a flick's momentum to settle back to baseline
@@ -113,6 +114,10 @@ export default function CameraDirector({
     const spherical = new THREE.Spherical().setFromVector3(offset);
 
     spherical.theta += spinSpeed.current * delta;
+    // Same increment, mirrored into the shared spin state the 3D-raymarched effect
+    // modes read as `uSpin` — so a drag/flick spins those scenes in step with the
+    // pyramid's own camera rather than being purely time-driven.
+    spinState.angle += spinSpeed.current * delta;
 
     const wanderOffset = wander(state.clock.elapsedTime, WANDER_SEED) * (basePhi.current * WANDER_FRACTION);
     const maxPhiOffset = Math.abs(basePhi.current * WANDER_FRACTION);
