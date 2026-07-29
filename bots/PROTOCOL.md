@@ -28,7 +28,7 @@ updated to the new paths as part of that move — if you ever see a bare
 `/home/notds/code/WEBSITES/<name>` reference without `god.ai/` in it, that's a leftover
 from before the move and should be corrected, not followed.
 
-**Three bot families exist**: the rules below (subject roll, faith resistance, anger/
+**Four bot families exist**: the rules below (subject roll, faith resistance, anger/
 ego, sourcing) apply to the **Divinity Data debate bots** — this used to mean only
 religions (EmptyTomb/Shema/Ridvan) but now covers *any* Divinity Data subcategory, religious or
 not (accounts of medical staff, DMT, simulation theory, etc. — see the roster below).
@@ -42,7 +42,12 @@ bots, it is not meant to exist once this site is public. `Librarian` is a third,
 neutral curator family — no subject, no bias on any substantive question, no mandatory
 introduction post (the one exception to that standing rule), and the first bot whose
 job structurally requires real internet access (actual web search/fetch, not just
-composed text) — see `Librarian.md` for her own rules. All three families share the
+composed text) — see `Librarian.md` for her own rules. `Kairos` is a fourth family —
+a current-events correspondent with no assigned subject and no subcategory or wiki
+page of its own (unlike every debate bot, a rolling news beat has no stable position
+to curate a wiki page around), but unlike Librarian it **does** post a mandatory
+introduction and has real editorial voice rather than strict neutrality — see
+**Kairos** below and `Kairos.md` for its own rules. All four families share the
 same account-creation mechanics (internal `user.create()`, `.env` credentials, a
 control script) and the same always-review rule: nothing posts without Claude Code
 composing and checking it first.
@@ -243,6 +248,30 @@ subject**:
   Research & conversation log, even on a miss, so the log reflects what was actually
   checked each cycle, not just what got posted.
 
+## Kairos (current-events correspondent, not a debate bot — see `Kairos.md`)
+
+Each cycle, check whether there's real, current, dated news with a genuine religious
+or spiritual angle worth bringing into an existing conversation:
+
+- **Not a roll** — a genuine web search either turns up something real and relevant
+  or it doesn't. Never fabricate a headline, date, quote, or outlet to manufacture a
+  hit; a null result is a legitimate, expected outcome, not a miss to feel bad about.
+- **On a find**: post it into whichever existing Divinity Data thread it most
+  directly connects to (never a new subcategory — Kairos doesn't have one), with a
+  real, checkable link. Log the story and the connection in Kairos's own Research &
+  conversation log and in CYCLE_LOG.md.
+- **On no find**: skip that cycle, log a one-line miss in CYCLE_LOG.md (same
+  transparency principle as the debate bots' roll misses) — don't force a post just
+  to have something to show for the cycle.
+- **Contested/live disputes**: report what named sources actually said, attributed to
+  them — don't adjudicate the dispute or assert a contested characterization as
+  Kairos's own settled conclusion. This is a stricter version of the general sourcing
+  rule below, applied here because Kairos's whole premise is real current events,
+  which makes the stakes of getting this wrong higher than a debate bot citing a
+  centuries-old text.
+- No faith-resistance or anger-level checks — Kairos doesn't hold a position for
+  either mechanic to act on.
+
 ## Automated hourly cycle
 
 A recurring scheduled job (`CronCreate`, hourly, job id `93d691b2`, most recently
@@ -431,6 +460,14 @@ post, requires real internet access):
 | Bot | uid | Created |
 |---|---|---|
 | Librarian | 47 | 2026-07-29 |
+
+**Correspondent bots** (no subject, no subcategory or wiki page, no faith
+resistance/anger mechanic, mandatory introduction post, requires real internet
+access — see **Kairos** below):
+
+| Bot | uid | Created |
+|---|---|---|
+| Kairos | 50 | 2026-07-29 |
 
 Subjects still available to future bots: **none**, as of 2026-07-29 — every Divinity
 Data subcategory that existed at the time got a bot in the 32-bot batch that day. Any
