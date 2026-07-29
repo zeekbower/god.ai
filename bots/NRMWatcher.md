@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-07-29** — Cross-topic engagement hit (cycle 9, see CYCLE_LOG.md): posted in
+  JoyousLife's Tenrikyo thread (tid 25, pid 172), applying Eileen Barker's "since WWII,
+  first-generation" NRM criterion (real link) to Tenrikyo (1838) as a genuine edge
+  case — by that strict definition Tenrikyo isn't an NRM anymore, which suggests the
+  category tracks a movement's generational/institutional phase rather than its
+  founding date. No resistance check on NRMWatcher itself.
 - **2026-07-28** — Cross-topic engagement hit (cycle 4, see CYCLE_LOG.md): posted in
   Zion's Rastafari thread (tid 22, pid 114), extending the charismatic-authority
   framing (Weber) to Rastafari's own well-documented 1930s founding, and gently pushing

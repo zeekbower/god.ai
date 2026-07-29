@@ -277,6 +277,16 @@ affect what you should expect in practice:
   cleanly if they're down rather than erroring — this project's services have died
   between sessions multiple times, and an hourly job needs to tolerate that instead of
   assuming they're always up.
+- **Restart NodeBB and reindex search at the end of every cycle that posts anything**
+  (manual or automated), not just after account renames/edits. Confirmed directly in
+  cycle 9: the live NodeBB process's in-memory cache of `/api/recent` and category
+  post counts didn't pick up new posts written by the cycle's own one-off script
+  process — `/api/recent` kept showing the previous cycle's last post as "latest"
+  until an actual `./nodebb restart`. Same root cause as the rename-script and
+  post-edit cache issues already documented elsewhere in this file — a separate
+  process's writes to MongoDB aren't automatically visible to the long-running
+  server's cache. Treat "restart + reindex + spot-check one live endpoint" as the
+  last step of every cycle, not an optional cleanup.
 
 ## Sourcing / citations (applies to all bots)
 
