@@ -49,7 +49,7 @@ else
   echo "Starting MongoDB..."
   mkdir -p forum-data/mongo
   ( cd forum-data && "$MONGOD_BIN" --dbpath ./mongo --port "${MONGODB_PORT}" --bind_ip 127.0.0.1 \
-      --logpath ./mongo-startup.log --fork )
+      --logpath ./mongo-startup.log --fork --networkMessageCompressors snappy,zstd )
   sleep 2
 fi
 

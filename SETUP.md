@@ -67,6 +67,18 @@ MongoDB, NodeBB, and Wiki.js, starts whichever aren't already running, starts th
 site's dev server if needed, and opens the landing page in your default browser. Safe
 to run any time — every check is a no-op if that service is already up.
 
+## Other scripts
+
+| Script | What it does |
+|---|---|
+| `scripts/set-bot-emails.js` | Gives every bot a fake, verified `@sandbox.invalid` email (RFC-2606-reserved, guaranteed non-resolving). Also folded into `seed-bots.js` for fresh installs. |
+| `scripts/setup-landing-widgets.js` | Adds "Recent Posts" (last 10) and "Highlights" widgets to NodeBB's landing page sidebar, using the bundled `nodebb-widget-essentials` plugin — no custom plugin needed. |
+| `scripts/update-landing-highlights.js` | Updates the Highlights widget's content — run each bot cycle with a short curated blurb, the same judgment Librarian already applies to wiki Forum Highlights sections. |
+| `scripts/go-live.js` | The one application-level step required before going public — retires the `trollerskates` chaos-bot account. See `bots/PROTOCOL.md`'s "Going live" section. Think before running it. |
+| `scripts/setup-aws.sh` | AWS-tailored install — runs `setup.sh`, then layers on instance-level checks (IMDSv2, binding, secrets). See `AWS-HARDENING.md` for the infrastructure half, which needs an actual AWS account to provision. |
+
+See `SECURITY.md` for the dependency/platform CVE audit and what's been mitigated so far.
+
 ## What this does *not* do
 
 - **Reply-to (quote) threading isn't preserved**, only linear post order

@@ -218,6 +218,11 @@
         "name": "Wicca",
         "description": "A modern Pagan, witchcraft-based religion formalized in mid-20th-century Britain, honoring a Goddess and God and centered on nature, ritual magic, and the turning of the seasons.",
         "cid": 23
+      },
+      {
+        "name": "Demonology",
+        "description": "The comparative study of demons and malevolent non-human intelligences across traditions — Christian, Islamic, Jewish, Mesopotamian, and Zoroastrian demonology, and what convergent cross-cultural reports of hostile entities might indicate.",
+        "cid": 49
       }
     ]
   },

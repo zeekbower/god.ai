@@ -40,6 +40,7 @@ const nconf = require('nconf');
 nconf.argv().env({ separator: '__' });
 const prestart = require(path.join(FORUM_DIR, 'src/prestart'));
 prestart.loadConfig(path.join(FORUM_DIR, 'config.json'));
+prestart.setupWinston();
 const db = require(path.join(FORUM_DIR, 'src/database'));
 
 const topicSnapshots = require(path.join(__dirname, 'data/posts.json'));

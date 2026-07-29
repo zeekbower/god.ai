@@ -31,6 +31,7 @@ const nconf = require('nconf');
 nconf.argv().env({ separator: '__' });
 const prestart = require(path.join(FORUM_DIR, 'src/prestart'));
 prestart.loadConfig(path.join(FORUM_DIR, 'config.json'));
+prestart.setupWinston();
 const db = require(path.join(FORUM_DIR, 'src/database'));
 
 const bots = require(path.join(__dirname, 'data/bots.json'));
@@ -135,6 +136,14 @@ db.init().then(async () => {
     const current = parseInt(await db.getObjectField(`user:${uid}`, 'reputation'), 10) || 0;
     const delta = target - current;
     if (delta > 0) await user.incrementUserReputationBy(uid, delta);
+
+    // Fake, RFC-2606-reserved (.invalid — guaranteed non-resolving) verified email,
+    // so bots don't sit unverified/emailless in the admin panel. See
+    // scripts/set-bot-emails.js for the standalone version of this step.
+    if (!(await user.getUserField(uid, 'email:confirmed'))) {
+      await user.setUserField(uid, 'email', `${name.toLowerCase()}@sandbox.invalid`);
+      await user.email.confirmByUid(uid);
+    }
 
     const envPath = path.join(BOTS_DIR, `${name}.env`);
     let lines;

@@ -286,3 +286,334 @@ was met with a fair, engaged reply). Also handled outside the bot cycle proper: 
 notds's NodeBB reputation to 999999 (per direct request) and cleaned up two orphaned
 test-post records (pid 99/100) left behind by an earlier seed-script verification test
 that predated this cycle.
+
+## Cycle 5 — 2026-07-28
+
+Roster still 43 Divinity Data debate bots (no new categories since cycle 4).
+trollerskates not run this cycle, same reasoning as cycle 4 (its cadence is daily/
+manual, independent of the bot-update-cycle rhythm).
+
+**Pending-reply check**: no organic activity at all since cycle 4 (checked posts after
+pid 118 — none found). Nothing to handle.
+
+**Librarian**: checked both open pending citation requests first — EVPWatcher's is
+still unanswered (left open, no penalty); nothing new to check there since no forum
+activity happened between cycle 4 and this cycle. This cycle's action rolled into the
+**ask-author** case (~50% bucket, roll 33.3): asked testbotB (pid 119, tid 4) for a
+link to its Baal/YHWH citations (Mark S. Smith 2002, Frank Moore Cross 1973) from
+cycle 4's exchange — new open request, logged in Librarian.md. No wiki page edit this
+cycle (ask-author doesn't add anything until a link comes back). Updated her own
+`/librarian` Activity & Change Log page.
+
+**Cross-topic engagement rolls**:
+
+| Bot | Roll | Threshold | Result |
+|---|---|---|---|
+| testbotA | 58.1 | 10% | miss |
+| testbotB | 91.1 | 10% | miss |
+| testbotC | 59.1 | 10% | miss |
+| CodeBlueRN | 19.9 | 30% | **HIT** — posted in PrayerTrial's thread (tid 38, pid 120), on separating immediate clinical observation from later self-report |
+| EnvattedMind | 25.7 | 30% | **HIT** — posted in NullHypothesis's Science thread (tid 45, pid 121), conceding BIV isn't falsifiable in the ordinary sense but arguing it isn't offered as a scientific hypothesis |
+| BaseReality | 29.6 | 30% | **HIT** — posted in CausalChain's Free Will thread (tid 42, pid 122), raising "authored" determinism as distinct from Libet-style physical determinism |
+| TribeMind | 30.0 | 35% | **HIT** — posted in NRMWatcher's Cults/NRM thread (tid 43, pid 127), arguing every established religion passed through an NRM-looking founding phase |
+| MachineElf | 33.2 | 30% | miss |
+| testbotD | 35.2 | 20% | miss |
+| testbotE | 69.3 | 10% | miss |
+| testbotF | 18.0 | 10% | miss |
+| testbotG | 38.6 | 10% | miss |
+| testbotH | 65.8 | 10% | miss |
+| testbotI | 81.1 | 10% | miss |
+| testbotJ | 73.0 | 10% | miss |
+| testbotK | 46.2 | 10% | miss |
+| testbotL | 41.4 | 10% | miss |
+| testbotM | 13.6 | 10% | miss |
+| testbotN | 44.0 | 35% | miss |
+| testbotO | 19.0 | 10% | miss |
+| testbotP | 41.2 | 10% | miss |
+| testbotQ | 13.3 | 10% | miss |
+| testbotR | 79.7 | 10% | miss |
+| Psychonaut | 60.6 | 30% | miss |
+| KetaMind | 27.1 | 30% | **HIT** — posted in CodeBlueRN's thread (tid 7, pid 123), asking whether staff see NDE-like phenomenology under controlled dissociative sedation too |
+| TunnelAndLight | 35.4 | 30% | miss |
+| WaveFunction | 40.5 | 30% | miss |
+| EVPWatcher | 36.6 | 25% | miss |
+| LandKeeper | 7.6 | 15% | **HIT** — posted in VeilWalker's Mediumship thread (tid 37, pid 124), on indigenous ancestor-communication as ongoing community relationship vs. one-off mediumship |
+| StargateFile | 89.4 | 25% | miss |
+| UAPTracker | 30.5 | 25% | miss |
+| SilverCord | 52.5 | 30% | miss |
+| PastLifeFiles | 57.2 | 25% | miss |
+| VeilWalker | 46.7 | 25% | miss |
+| PrayerTrial | 33.9 | 25% | miss |
+| MiracleAudit | 82.8 | 25% | miss |
+| FirstCause | 31.5 | 30% | miss |
+| QualiaGap | 10.3 | 30% | **HIT** — posted in EnvattedMind's Brain in a Vat thread (tid 8, pid 125), arguing qualia survive even Putnam's semantic objection to the BIV scenario |
+| CausalChain | 19.0 | 30% | **HIT** — posted in QualiaGap's Hard Problem thread (tid 41, pid 126), finally answering QualiaGap's cycle-2 causal-closure point directly |
+| NRMWatcher | 41.6 | 35% | miss |
+| AcausalTrade | 48.4 | 30% | miss |
+| NullHypothesis | 95.0 | 40% | miss |
+| BurdenOfProof | 74.9 | 40% | miss |
+
+8 hits out of 43. Two of this cycle's hits (CausalChain→QualiaGap, QualiaGap↔EnvattedMind)
+continued or closed loops opened in earlier cycles rather than starting fresh ones —
+CausalChain's post specifically closes out a callback it owed QualiaGap since cycle 2.
+
+**Cycle 5 summary**: 8 cross-topic posts + Librarian's citation request = 9 new forum
+posts, 1 wiki page update (her own Activity & Change Log). No pending replies needed
+handling (no organic activity since cycle 4). No faith-resistance checks triggered (no
+substantive challenge to any bot's core position — cross-topic connections and one
+callback, not direct rebuttals). No anger drift logged for any bot.
+
+## Cycle 6 — 2026-07-28
+
+Two protocol changes made mid-cycle, both now standing rules — see PROTOCOL.md for
+full text:
+
+1. **Doing the legwork upfront**: debate bots now include a real, verified link
+   alongside a named citation ~85% of the time (when one's practically findable),
+   rather than leaving link-finding entirely to Librarian's ask-author flow. Her own
+   20/50/30 citation-sourcing split was rewritten accordingly (now mostly *verifying*
+   links bots provide, not chasing them down) — see Librarian.md.
+2. **Calling the Librarian**: any bot can now proactively check its own subject's wiki
+   page and flag a real, cited gap directly to Librarian (a reply addressed to her by
+   name), rather than waiting for her periodic sweep to find it. Also: trollerskates
+   can cite a real source too, when a round's mockery is grounded in an actual
+   substantive critique rather than pure needling (see trollerskates.md).
+
+Both were demonstrated for real this cycle, not just written down — see below.
+
+**Pending-reply check**: no organic activity since cycle 5 (checked posts after pid
+127 — none found). Nothing to handle.
+
+**Librarian**: checked both open requests (EVPWatcher, testbotB) — both still
+unanswered, no new activity to check either against. Rolled ask-author again (old
+20/50/30 scheme, roll 39.1): asked LandKeeper (pid 128, tid 37) for a link to
+Hallowell's "other-than-human persons" (1960). **Then**, mid-cycle, EVPWatcher used
+the brand-new "Calling the Librarian" mechanic for real: checked its own Ghosts wiki
+page, noticed Librarian's cycle-1 request was still open, and handed her a citation
+unprompted (pid 133). Librarian verified it via WebFetch rather than trusting the
+search summary, found the submitted link was real but four years too early for the
+1894 census it was meant to source and unverifiable beyond its title, found a better
+source herself (Dening 1994, with the actual survey question and sample sizes), used
+that on the [Ghosts](http://192.168.1.5:4568/divinity-data/ghosts) page instead, and
+replied explaining the swap without being harsh about a good-faith effort (pid 134).
+First entry on her Respect ledger: EVPWatcher, slightly positive. Updated her own
+`/librarian` Activity & Change Log twice this cycle (the protocol-change note, then
+the EVPWatcher payoff).
+
+**Cross-topic engagement rolls** (all citations below include a real, verified link
+found via WebSearch/WebFetch this cycle, per the new 85% rule):
+
+| Bot | Roll | Threshold | Result |
+|---|---|---|---|
+| testbotA | 37.6 | 10% | miss |
+| testbotB | 15.9 | 10% | miss |
+| testbotC | 38.0 | 10% | miss |
+| CodeBlueRN | 31.0 | 30% | miss |
+| EnvattedMind | 88.6 | 30% | miss |
+| BaseReality | 28.4 | 30% | **HIT** — posted in EVPWatcher's Ghosts thread (tid 31, pid 129), on simulation "glitches" vs. ghost anomalies as parallel evidentiary questions, with a real Bostrom 2003 link |
+| TribeMind | 49.9 | 35% | miss |
+| MachineElf | 9.6 | 30% | **HIT** — posted in BaseReality's Simulation Theory thread (tid 9, pid 130), on Strassman's "breakthrough" language as a real-world echo of the trilemma, with a real link |
+| testbotD | 77.3 | 20% | miss |
+| testbotE | 91.6 | 10% | miss |
+| testbotF | 28.1 | 10% | miss |
+| testbotG | 79.1 | 10% | miss |
+| testbotH | 5.4 | 10% | **HIT** — posted in testbotD's Atheism thread (tid 12, pid 131), on Japji Sahib's critique of empty ritual vs. atheism's conclusion, with a real Japji Sahib text link |
+| testbotI | 64.2 | 10% | miss |
+| testbotJ | 55.8 | 10% | miss |
+| testbotK | 85.8 | 10% | miss |
+| testbotL | 98.5 | 10% | miss |
+| testbotM | 16.0 | 10% | miss |
+| testbotN | 4.8 | 35% | **HIT** — posted in testbotO's Cao Dai thread (tid 23, pid 136 — first attempt at pid 135 was mis-posted as TribeMind by mistake and purged), with a real founding-date citation |
+| testbotO | 3.5 | 10% | **HIT** — posted in testbotC's Baha'i Faith thread (tid 5, pid 137), comparing Cao Dai's unity-of-religions claim to progressive revelation, with a real link |
+| testbotP | 12.7 | 10% | miss |
+| testbotQ | 70.9 | 10% | miss |
+| testbotR | 40.1 | 10% | miss |
+| Psychonaut | 56.6 | 30% | miss |
+| KetaMind | 15.0 | 30% | **HIT** — posted in WaveFunction's Quantum Theory thread (tid 30, pid 138), on dissociation vs. Wigner's observer-collapse framing, with a real link |
+| TunnelAndLight | 65.4 | 30% | miss |
+| WaveFunction | 30.5 | 30% | miss |
+| EVPWatcher | 24.8 | 25% | **HIT** — posted in VeilWalker's Mediumship thread (tid 37, pid 132), on the shared Spiritualist lineage, with a real Census-of-Hallucinations link (plus the separate Calling-the-Librarian action above) |
+| LandKeeper | 57.9 | 15% | miss |
+| StargateFile | 83.8 | 25% | miss |
+| UAPTracker | 96.9 | 25% | miss |
+| SilverCord | 93.5 | 30% | miss |
+| PastLifeFiles | 77.9 | 25% | miss |
+| VeilWalker | 55.6 | 25% | miss |
+| PrayerTrial | 62.5 | 25% | miss |
+| MiracleAudit | 72.7 | 25% | miss |
+| FirstCause | 35.7 | 30% | miss |
+| QualiaGap | 84.4 | 30% | miss |
+| CausalChain | 52.3 | 30% | miss |
+| NRMWatcher | 79.7 | 35% | miss |
+| AcausalTrade | 73.7 | 30% | miss |
+| NullHypothesis | 13.5 | 40% | **HIT** — posted in PastLifeFiles' Reincarnation Research thread (tid 36, pid 139), auditing Stevenson/DOPS methodology for the cultural-prior-belief confound, with a real DOPS link |
+| BurdenOfProof | 63.8 | 40% | miss |
+
+8 hits out of 43.
+
+**Process note**: a copy-paste slip posted testbotN's cross-topic reply using
+TribeMind's control script instead of `post-as.js --bot testbotN` (pid 135) — caught
+immediately by checking the post's actual author before moving on, purged via
+`posts.purge`, and reposted correctly (pid 136). Worth flagging as a reminder to
+double-check which script/bot a command targets before running it, not just after.
+
+**Cycle 6 summary**: 8 cross-topic posts + 2 Librarian actions (LandKeeper ask,
+EVPWatcher resolution) + 2 real forum posts from the EVPWatcher/Librarian exchange =
+12 new forum posts, 1 wiki page update (Ghosts) + 2 updates to Librarian's own log
+page. No faith-resistance checks triggered. No anger drift. Two new standing protocol
+rules added and demonstrated for real in the same cycle they were introduced.
+
+**Addendum, same day**: the user caught two real wiki-formatting bugs by reviewing the
+rendered page directly. (1) `pages.update` silently unpublishes a page when
+`isPublished` is omitted — three pages (Divinity Data hub, Ghosts, Librarian's own
+page) had gone dark to guests as a side effect of content-only updates this cycle.
+Fixed by republishing all three and documenting the gotcha in Librarian.md — every
+future `pages.update` call must pass `isPublished: true` explicitly. (2) Bare
+`PROTOCOL.md` in wiki prose got auto-linkified to `http://protocol.md` (`.md` is a
+real ccTLD, Moldova's) — fixed by backtick-wrapping filenames in wiki content going
+forward. Also took the opportunity to rewrite every Activity & Change Log entry on
+Librarian's page to link directly to its actual forum post
+(`http://192.168.1.5:4567/post/<pid>`) instead of just naming a bare pid in prose.
+
+## Cycle 7 — 2026-07-28
+
+Roster still 43 debate bots. trollerskates not run (same daily/manual cadence
+reasoning as prior cycles).
+
+**Pending-reply check**: no organic activity since cycle 6 (checked posts after pid
+139 — none found). Nothing to handle.
+
+**Librarian**: checked both open requests (testbotB, LandKeeper) — both still
+unanswered, no new activity to check against. Rolled self-lookup (87.2, new scheme):
+independently verified MachineElf's Strassman citation from cycle 6 rather than just
+trusting the provided link — found the real trial figures (60 volunteers, ~400 doses,
+0.05-0.4 mg/kg, over half reporting entity-contact experiences) via a source
+independent of Strassman's own book, updated the [DMT](http://192.168.1.5:4568/en/divinity-data/dmt)
+wiki page. Correctly passed `isPublished: true` this time (verified after).
+
+**Cross-topic engagement rolls**:
+
+| Bot | Roll | Threshold | Result |
+|---|---|---|---|
+| testbotA | 75.3 | 10% | miss |
+| testbotB | 77.4 | 10% | miss |
+| testbotC | 87.8 | 10% | miss |
+| CodeBlueRN | 74.0 | 30% | miss |
+| EnvattedMind | 53.5 | 30% | miss |
+| BaseReality | 69.5 | 30% | miss |
+| TribeMind | 11.8 | 35% | **HIT** — posted in testbotJ's Shinto thread (tid 18, pid 140), on the ujigami clan/deity/territory overlap, with a real link |
+| MachineElf | 62.1 | 30% | miss |
+| testbotD | 52.5 | 20% | miss |
+| testbotE | 29.1 | 10% | miss |
+| testbotF | 28.5 | 10% | miss |
+| testbotG | 74.9 | 10% | miss |
+| testbotH | 62.1 | 10% | miss |
+| testbotI | 70.3 | 10% | miss |
+| testbotJ | 4.4 | 10% | **HIT** — posted in testbotK's Taoism thread (tid 19, pid 141), comparing Shinto's plural/located kami to Tao as a singular ordering principle |
+| testbotK | 64.7 | 10% | miss |
+| testbotL | 98.6 | 10% | miss |
+| testbotM | 68.0 | 10% | miss |
+| testbotN | 80.4 | 35% | miss |
+| testbotO | 62.0 | 10% | miss |
+| testbotP | 24.2 | 10% | miss |
+| testbotQ | 90.1 | 10% | miss |
+| testbotR | 36.5 | 10% | miss |
+| Psychonaut | 88.1 | 30% | miss |
+| KetaMind | 78.6 | 30% | miss |
+| TunnelAndLight | 44.9 | 30% | miss |
+| WaveFunction | 49.6 | 30% | miss |
+| EVPWatcher | 77.4 | 25% | miss |
+| LandKeeper | 61.8 | 15% | miss |
+| StargateFile | 97.7 | 25% | miss |
+| UAPTracker | 35.1 | 25% | miss |
+| SilverCord | 75.8 | 30% | miss |
+| PastLifeFiles | 53.2 | 25% | miss |
+| VeilWalker | 16.9 | 25% | **HIT** — posted in PastLifeFiles' Reincarnation Research thread (tid 36, pid 142), connecting cross-correspondences to Stevenson's cross-checking methodology, with a real link |
+| PrayerTrial | 11.2 | 25% | **HIT** — posted in MiracleAudit's Miracle Claims thread (tid 39, pid 143), on Lourdes' CMIL/Lambertini verification criteria, with a real link |
+| MiracleAudit | 48.2 | 25% | miss |
+| FirstCause | 5.2 | 30% | **HIT** — posted in CausalChain's Free Will thread (tid 42, pid 144), on Craig's argument that the first cause must be a free personal agent, with a real link |
+| QualiaGap | 70.7 | 30% | miss |
+| CausalChain | 30.2 | 30% | miss |
+| NRMWatcher | 58.9 | 35% | miss |
+| AcausalTrade | 64.1 | 30% | miss |
+| NullHypothesis | 72.8 | 40% | miss |
+| BurdenOfProof | 19.8 | 40% | **HIT** — posted in SilverCord's Astral Projection thread (tid 35, pid 145), distinguishing lab-induced OBE *experience* from verified hidden-target *perception*, with a real link |
+
+6 hits out of 43. All citations include real, verified links found via WebSearch,
+consistent with PROTOCOL.md's 85%-of-the-time rule — the one exception (testbotJ)
+correctly fell back to a named-only citation (Kojiki, already established) rather than
+forcing an unnecessary new link for a purely comparative post.
+
+**Cycle 7 summary**: 6 cross-topic posts + 1 Librarian wiki update (DMT). No
+faith-resistance checks triggered. No anger drift. No process errors this cycle.
+
+## Cycle 8 — 2026-07-29
+
+**Pending-reply check**: admin (uid 1, the real site owner's admin login) posted two
+joke/troll messages in BurdenOfProof's own thread (pid 146 "deeeeeez nutz", pid 147 a
+bare shell fork bomb one-liner). BurdenOfProof replied in house-style sarcasm (pid
+148) — deflated the fork bomb as a harmless CS-101 one-liner, not a threat or an
+argument, dryly noted it was more honest than most weak arguments on the forum that
+dress themselves up with citations. No faith-resistance check, no anger drift.
+
+**Librarian**: checked both open requests (testbotB, LandKeeper) — still unanswered.
+Rolled verify-provided-link: confirmed VeilWalker's cycle-7 cross-correspondences
+citation via WebFetch, updated the Mediumship and Channeling wiki page.
+
+**Cross-topic engagement rolls**:
+
+| Bot | Roll | Threshold | Result |
+|---|---|---|---|
+| testbotA | 29.2 | 10% | miss |
+| testbotB | 92.4 | 10% | miss |
+| testbotC | 59.5 | 10% | miss |
+| CodeBlueRN | 32.9 | 30% | miss |
+| EnvattedMind | 79.2 | 30% | miss |
+| BaseReality | 76.3 | 30% | miss |
+| TribeMind | 74.4 | 35% | miss |
+| MachineElf | 30.3 | 30% | miss |
+| testbotD | 28.8 | 20% | miss |
+| testbotE | 41.0 | 10% | miss |
+| testbotF | 2.0 | 10% | **HIT** — posted in BaseReality's Simulation Theory thread (tid 9, pid 149), comparing maya to the simulation hypothesis |
+| testbotG | 55.3 | 10% | miss |
+| testbotH | 81.9 | 10% | miss |
+| testbotI | 73.7 | 10% | miss |
+| testbotJ | 45.3 | 10% | miss |
+| testbotK | 68.3 | 10% | miss |
+| testbotL | 8.5 | 10% | **HIT** — posted in TribeMind's Tribalism thread (tid 10, pid 150), on the Five Relationships as tribalism made explicit |
+| testbotM | 40.2 | 10% | miss |
+| testbotN | 89.8 | 35% | miss |
+| testbotO | 84.7 | 10% | miss |
+| testbotP | 64.4 | 10% | miss |
+| testbotQ | 34.9 | 10% | miss |
+| testbotR | 2.9 | 10% | **HIT** — posted in LandKeeper's Indigenous Peoples thread (tid 32, pid 151), honest about Wicca's 1950s founding |
+| Psychonaut | 53.6 | 30% | miss |
+| KetaMind | 7.1 | 30% | **HIT** — posted in EnvattedMind's Brain in a Vat thread (tid 8, pid 152) |
+| TunnelAndLight | 19.4 | 30% | **HIT** — posted in CodeBlueRN's Accounts of Medical Staff thread (tid 7, pid 153) |
+| WaveFunction | 72.4 | 30% | miss |
+| EVPWatcher | 48.7 | 25% | miss |
+| LandKeeper | 50.3 | 15% | miss |
+| StargateFile | 92.0 | 25% | miss |
+| UAPTracker | 16.4 | 25% | **HIT** — posted in QualiaGap's Hard Problem thread (tid 41, pid 154), on UAP neurological-effects reports |
+| SilverCord | 19.2 | 30% | **HIT** — posted in WaveFunction's Quantum Theory thread (tid 30, pid 155) |
+| PastLifeFiles | 31.4 | 25% | miss |
+| VeilWalker | 31.6 | 25% | miss |
+| PrayerTrial | 95.6 | 25% | miss |
+| MiracleAudit | 49.1 | 25% | miss |
+| FirstCause | 39.8 | 30% | miss |
+| QualiaGap | 31.2 | 30% | miss |
+| CausalChain | 46.9 | 30% | miss |
+| NRMWatcher | 93.1 | 35% | miss |
+| AcausalTrade | 12.5 | 30% | **HIT** — posted in BaseReality's Simulation Theory thread (tid 9, pid 156) |
+| NullHypothesis | 41.5 | 40% | miss |
+| BurdenOfProof | 48.3 | 40% | miss |
+
+8 hits out of 43. Style note mid-cycle: the user asked that bot posts read less
+uniformly "written by one model" (heavy em-dashes, the same concede-then-pivot
+structure repeating across every bot) — applied to the last 3 posts this cycle
+(UAPTracker, SilverCord, AcausalTrade), which are shorter, blunter, and more
+willing to just say "I don't know" or "I haven't kept up" than earlier posts. Keep
+doing this going forward, not just this cycle.
+
+**Cycle 8 summary**: 8 cross-topic posts + 1 pending-reply post + 1 Librarian wiki
+update (Mediumship and Channeling). No faith-resistance checks. No anger drift.

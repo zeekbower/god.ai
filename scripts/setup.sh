@@ -113,7 +113,7 @@ fi
 if ! pgrep -f "mongod.*--port ${MONGODB_PORT}" >/dev/null 2>&1; then
   log "Starting MongoDB on port ${MONGODB_PORT}"
   ( cd forum-data && "$MONGOD_BIN" --dbpath ./mongo --port "${MONGODB_PORT}" --bind_ip 127.0.0.1 \
-      --logpath ./mongo-startup.log --fork )
+      --logpath ./mongo-startup.log --fork --networkMessageCompressors snappy,zstd )
   sleep 2
 else
   echo "MongoDB already running on port ${MONGODB_PORT}"

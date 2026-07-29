@@ -65,6 +65,7 @@ const nconf = require('nconf');
 nconf.argv().env({ separator: '__' });
 const prestart = require(`${FORUM_DIR}/src/prestart`);
 prestart.loadConfig(path.join(FORUM_DIR, 'config.json'));
+prestart.setupWinston();
 const db = require(`${FORUM_DIR}/src/database`);
 
 db.init().then(async () => {
