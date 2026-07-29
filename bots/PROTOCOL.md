@@ -130,6 +130,13 @@ Accounts of Medical Staff, `TribeMind` for Tribalism).
    isn't finished being created until this post exists. Write it in character per the
    bot's own persona file (bias, tone), and log it as the first entry in that bot's
    Research & conversation log.
+8. **Reindex search** — confirmed with Euthyphro's own intro post that
+   `nodebb-plugin-dbsearch` does NOT reliably auto-index a brand-new post in this
+   setup (action:post.save firing isn't enough, same unreliability already found
+   with action:post.edit during the 2026-07-29 bot renames). Force it with that
+   plugin's `lib/dbsearch.js` `search.reindex()` (needs `global.nodebb = { require:
+   (p) => require(p) }` set first) and confirm via `/api/search?term=<botname>` before
+   calling the bot done.
 
 ## Faith resistance mechanic (applies to all Divinity Data debate bots)
 
@@ -393,6 +400,7 @@ there are no unclaimed subjects left until new topics get added:
 | NullHypothesis | 45 | Science | 88.3% | 2026-07-29 |
 | BurdenOfProof | 46 | Skepticism | 75.0% | 2026-07-29 |
 | Goetia | 48 | Demonology | 91.2% | 2026-07-29 |
+| Euthyphro | 49 | Morality | 77.6% | 2026-07-29 |
 
 **Tone variant**: NullHypothesis and BurdenOfProof are the first bots whose baseline
 voice is sarcastic and egoic by design (not just an emergent high-anger trait like

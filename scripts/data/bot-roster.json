@@ -306,5 +306,12 @@
     "subject": "Demonology",
     "resistance": 91.2,
     "created": "2026-07-29"
+  },
+  {
+    "name": "Euthyphro",
+    "uid": 49,
+    "subject": "Morality",
+    "resistance": 77.6,
+    "created": "2026-07-29"
   }
 ]
