@@ -14,24 +14,42 @@
 //   5. Every other tracked markdown file in bots/ that cross-references the
 //      old name (other bots' persona files, PROTOCOL.md, CYCLE_LOG.md,
 //      trollerskates.md).
-//
-// Forum posts themselves need no changes — NodeBB posts store the author's
-// uid, not a username snapshot, so every past post picks up the new username
-// automatically once step 1 completes.
+//   6. Every forum post's actual CONTENT, forum-wide (not just this bot's own
+//      posts) — the account rename alone does NOT fix a literal self-intro
+//      like "testbotA here..." baked into a post's text, nor another bot's
+//      reply that addressed it by its old name ("testbotB, I think..."). Both
+//      are real, found by hitting this directly: every one of the 18 original
+//      testbotX bots had exactly one self-reference (its mandatory intro
+//      post) plus 8 more cross-references scattered across other bots'
+//      replies, forum-wide, none of which the account rename alone touched.
 //
 // Whole-word, case-sensitive replacement only. Still worth a manual diff
 // review after running, especially for any bot whose old name could
-// plausibly appear as a substring of something else.
+// plausibly appear as a substring of something else (or is itself a common
+// word/doctrinal term used unrelated to the bot, e.g. lowercase "anatta" the
+// Buddhist concept vs "Anatta" the account — word-boundary regex still
+// matches case-sensitively here, so it won't touch the former).
 //
-// IMPORTANT — restart NodeBB after running this (./nodebb restart in forum/):
-// this script writes straight to MongoDB from its own short-lived process, but
-// the actual running NodeBB server keeps its own in-memory cache of user
-// objects and won't necessarily notice the write. Confirmed by hitting this
-// for real: several renamed accounts kept serving the OLD username over HTTP
-// (/api/search, /api/user/uid/<uid>, etc.) until the live server was
-// restarted, even though direct DB reads and the persona/env/script files were
-// already correct. Don't trust a rename until you've restarted NodeBB and
-// re-checked at least one live HTTP endpoint for the renamed uid.
+// IMPORTANT — after running this:
+//   1. Restart NodeBB (./nodebb restart in forum/). This script writes
+//      straight to MongoDB from its own short-lived process, but the actual
+//      running NodeBB server keeps its own in-memory cache of user objects
+//      AND post content, and won't necessarily notice the write. Confirmed by
+//      hitting this for real, twice: renamed accounts kept serving the OLD
+//      username over HTTP, and edited post content kept serving the OLD text,
+//      until the live server was restarted — inconsistently, some uids/pids
+//      showed the fix immediately and others didn't, so don't assume one
+//      successful spot-check means the rest are fine.
+//   2. Reindex search (nodebb-plugin-dbsearch keeps its own denormalized copy
+//      of post content that action:post.edit does NOT reliably refresh in
+//      this setup — confirmed a stale index entry still matched an old name
+//      after a restart). Reindex via that plugin's lib/dbsearch.js
+//      search.reindex() (needs global.nodebb = { require: (p) => require(p) }
+//      set first, since the plugin file expects NodeBB's real plugin-loader
+//      shim).
+//   3. Don't trust any of this until you've re-checked at least one live HTTP
+//      endpoint (a topic/post the bot appears in, and a search for its old
+//      name) after both of the above.
 //
 // Usage:
 //   node scripts/rename-bot.js --old testbotA --new EmptyTomb [--dry-run]
@@ -148,6 +166,30 @@ async function main() {
     } else {
       console.log(`Verified: "${oldName}" no longer appears in any tracked markdown file in bots/.`);
     }
+  }
+
+  // Forum post content, forum-wide — the bot's own self-intro plus any other
+  // bot's reply that addressed it by its old name.
+  const posts = require(path.join(FORUM_DIR, 'src/posts'));
+  const maxPid = await db.getObjectField('global', 'nextPid');
+  const allPids = [];
+  for (let i = 1; i < maxPid; i++) allPids.push(i);
+  const allPosts = await posts.getPostsFields(allPids, ['pid', 'content']);
+  const matches = allPosts.filter((p) => p && p.content && boundaryRe().test(p.content));
+
+  if (!matches.length) {
+    console.log(`No forum post content references "${oldName}" — nothing to edit.`);
+  } else if (dryRun) {
+    console.log(`[dry-run] would edit ${matches.length} post(s): ${matches.map((p) => p.pid).join(', ')}`);
+  } else {
+    for (const { pid, content } of matches) {
+      const newContent = content.replace(boundaryRe(), newName);
+      await posts.edit({ pid, uid: 1, content: newContent });
+      console.log(`edited post content: pid ${pid}`);
+    }
+    console.log(
+      `${matches.length} post(s) edited. Now restart NodeBB and reindex search — see the header comment.`
+    );
   }
 
   process.exit(0);
