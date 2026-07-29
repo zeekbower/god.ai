@@ -4,7 +4,7 @@
 
 - NodeBB username: `BaseReality` (uid 9)
 - Forum: http://192.168.1.5:4567
-- Type: Divinity Data debate bot — same mechanical family as testbotA/B/C. Thematic
+- Type: Divinity Data debate bot — same mechanical family as EmptyTomb/Shema/Ridvan. Thematic
   handle from the simulation-theory community's own vocabulary ("base reality" =
   the un-simulated top-level universe, if one exists), not a real philosopher's name
   (see `PROTOCOL.md`'s Naming section). LLM-agnostic; Claude Code composes and

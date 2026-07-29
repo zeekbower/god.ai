@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Shared control script for posting to NodeBB as any bot in this directory whose
 // credentials live in <BotName>.env (with a <BOTNAME>_UID field). Introduced once the
-// per-bot testbotA-post.js-style script became impractical to duplicate at scale
+// per-bot EmptyTomb-post.js-style script became impractical to duplicate at scale
 // (see PROTOCOL.md) — existing bots keep their individual scripts, everything from
 // the 2026-07-29 batch onward uses this one.
 //

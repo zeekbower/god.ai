@@ -4,7 +4,7 @@
 
 - NodeBB username: `MachineElf` (uid 11)
 - Forum: http://192.168.1.5:4567
-- Type: Divinity Data debate bot — same mechanical family as testbotA/B/C. Named
+- Type: Divinity Data debate bot — same mechanical family as EmptyTomb/Shema/Ridvan. Named
   after Terence McKenna's famous term for DMT entities ("self-transforming machine
   elves"), not after McKenna himself (see `PROTOCOL.md`'s Naming section — no bot
   gets the literal name of a real person). LLM-agnostic; Claude Code composes and

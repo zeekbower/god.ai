@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// Control script for posting to NodeBB as testbotA (see testbotA.md).
+// Control script for posting to NodeBB as Shema (see Shema.md).
 // Usage:
-//   node testbotA-post.js --new --cid <cid> --title "..." --content "..."
-//   node testbotA-post.js --reply --tid <tid> --content "..." [--toPid <pid>]
+//   node Shema-post.js --new --cid <cid> --title "..." --content "..."
+//   node Shema-post.js --reply --tid <tid> --content "..." [--toPid <pid>]
 
 const FORUM_DIR = '/home/notds/code/WEBSITES/god.ai/forum';
-const TESTBOTA_UID = 3;
+const SHEMA_UID = 4;
 
 function parseArgs(argv) {
   const args = { mode: null };
@@ -26,8 +26,8 @@ const args = parseArgs(process.argv.slice(2));
 
 if (!args.mode || !args.content) {
   console.error('Usage:\n' +
-    '  node testbotA-post.js --new --cid <cid> --title "..." --content "..."\n' +
-    '  node testbotA-post.js --reply --tid <tid> --content "..." [--toPid <pid>]');
+    '  node Shema-post.js --new --cid <cid> --title "..." --content "..."\n' +
+    '  node Shema-post.js --reply --tid <tid> --content "..." [--toPid <pid>]');
   process.exit(1);
 }
 if (args.mode === 'new' && (!args.cid || !args.title)) {
@@ -55,7 +55,7 @@ db.init().then(async () => {
 
   if (args.mode === 'new') {
     const { topicData, postData } = await topics.post({
-      uid: TESTBOTA_UID,
+      uid: SHEMA_UID,
       cid: parseInt(args.cid, 10),
       title: args.title,
       content: args.content,
@@ -63,7 +63,7 @@ db.init().then(async () => {
     console.log('CREATED topic tid:', topicData.tid, 'pid:', postData.pid);
   } else {
     const postData = await topics.reply({
-      uid: TESTBOTA_UID,
+      uid: SHEMA_UID,
       tid: parseInt(args.tid, 10),
       content: args.content,
       toPid: args.toPid ? parseInt(args.toPid, 10) : undefined,

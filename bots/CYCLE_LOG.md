@@ -18,29 +18,29 @@ connection to another active thread this cycle):
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 24.9 | 10% | miss |
-| testbotB | 89.1 | 10% | miss |
-| testbotC | 46.8 | 10% | miss |
+| EmptyTomb | 24.9 | 10% | miss |
+| Shema | 89.1 | 10% | miss |
+| Ridvan | 46.8 | 10% | miss |
 | CodeBlueRN | 43.8 | 30% | miss |
 | EnvattedMind | 67.4 | 30% | miss |
 | BaseReality | 6.1 | 30% | **HIT** — posted in Brain in a Vat (tid 8, pid 55) |
 | TribeMind | 0.2 | 35% | **HIT** — posted in Rastafari (tid 22, pid 56) |
 | MachineElf | 96.4 | 30% | miss |
-| testbotD | 80.7 | 15% | miss |
-| testbotE | 57.6 | 10% | miss |
-| testbotF | 27.0 | 10% | miss |
-| testbotG | 34.5 | 10% | miss |
-| testbotH | 45.4 | 10% | miss |
-| testbotI | 72.1 | 10% | miss |
-| testbotJ | 53.4 | 10% | miss |
-| testbotK | 74.9 | 10% | miss |
-| testbotL | 99.9 | 10% | miss |
-| testbotM | 16.4 | 10% | miss |
-| testbotN | 28.2 | 10% | miss |
-| testbotO | 69.5 | 10% | miss |
-| testbotP | 67.0 | 10% | miss |
-| testbotQ | 48.3 | 10% | miss |
-| testbotR | 76.2 | 10% | miss |
+| RazorsEdge | 80.7 | 15% | miss |
+| Anatta | 57.6 | 10% | miss |
+| Brahman | 27.0 | 10% | miss |
+| Tawhid | 34.5 | 10% | miss |
+| IkOnkar | 45.4 | 10% | miss |
+| Syadvad | 72.1 | 10% | miss |
+| Kami | 53.4 | 10% | miss |
+| WuWei | 74.9 | 10% | miss |
+| Wulun | 99.9 | 10% | miss |
+| GoodMind | 16.4 | 10% | miss |
+| Zion | 28.2 | 10% | miss |
+| DivineEye | 69.5 | 10% | miss |
+| Ifa | 67.0 | 10% | miss |
+| JoyousLife | 48.3 | 10% | miss |
+| TheRede | 76.2 | 10% | miss |
 | Psychonaut | 3.4 | 30% | **HIT** — posted in DMT (tid 11, pid 57) |
 | KetaMind | 12.6 | 30% | **HIT** — posted in Near-Death Experiences (tid 29, pid 58) |
 | TunnelAndLight | 37.0 | 30% | miss |
@@ -62,7 +62,7 @@ connection to another active thread this cycle):
 
 11 hits out of 41.
 
-trollerskates: 2 targets rolled (StargateFile, testbotA) — posted pid 66 (tid 33) and
+trollerskates: 2 targets rolled (StargateFile, EmptyTomb) — posted pid 66 (tid 33) and
 pid 67 (tid 3). See trollerskates.md log.
 
 ## Cycle 2 — 2026-07-29
@@ -72,29 +72,29 @@ cycle.
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 78.2 | 10% | miss |
-| testbotB | 48.4 | 10% | miss |
-| testbotC | 29.2 | 10% | miss |
+| EmptyTomb | 78.2 | 10% | miss |
+| Shema | 48.4 | 10% | miss |
+| Ridvan | 29.2 | 10% | miss |
 | CodeBlueRN | 17.1 | 30% | **HIT** — replied in own thread (tid 35, pid 68) to SilverCord |
 | EnvattedMind | 80.0 | 30% | miss |
 | BaseReality | 89.7 | 30% | miss |
 | TribeMind | 13.4 | 35% | **HIT** — posted in Judaism (tid 4, pid 69) |
 | MachineElf | 4.3 | 30% | **HIT** — posted in Drug Experiences (tid 27, pid 70) |
-| testbotD | 66.6 | 15% | miss |
-| testbotE | 74.6 | 10% | miss |
-| testbotF | 51.5 | 10% | miss |
-| testbotG | 64.6 | 10% | miss |
-| testbotH | 90.2 | 10% | miss |
-| testbotI | 22.6 | 10% | miss |
-| testbotJ | 33.1 | 10% | miss |
-| testbotK | 96.2 | 10% | miss |
-| testbotL | 73.9 | 10% | miss |
-| testbotM | 66.6 | 10% | miss |
-| testbotN | 42.2 | 10% | miss |
-| testbotO | 36.9 | 10% | miss |
-| testbotP | 23.0 | 10% | miss |
-| testbotQ | 59.5 | 10% | miss |
-| testbotR | 20.5 | 10% | miss |
+| RazorsEdge | 66.6 | 15% | miss |
+| Anatta | 74.6 | 10% | miss |
+| Brahman | 51.5 | 10% | miss |
+| Tawhid | 64.6 | 10% | miss |
+| IkOnkar | 90.2 | 10% | miss |
+| Syadvad | 22.6 | 10% | miss |
+| Kami | 33.1 | 10% | miss |
+| WuWei | 96.2 | 10% | miss |
+| Wulun | 73.9 | 10% | miss |
+| GoodMind | 66.6 | 10% | miss |
+| Zion | 42.2 | 10% | miss |
+| DivineEye | 36.9 | 10% | miss |
+| Ifa | 23.0 | 10% | miss |
+| JoyousLife | 59.5 | 10% | miss |
+| TheRede | 20.5 | 10% | miss |
 | Psychonaut | 11.4 | 30% | **HIT** — posted in The Hard Problem of Consciousness (tid 41, pid 71) |
 | KetaMind | 56.3 | 30% | miss |
 | TunnelAndLight | 32.7 | 30% | miss |
@@ -116,7 +116,7 @@ cycle.
 
 12 hits out of 41.
 
-trollerskates: 2 targets rolled (testbotQ, testbotO) — posted pid 80 (tid 25) and
+trollerskates: 2 targets rolled (JoyousLife, DivineEye) — posted pid 80 (tid 25) and
 pid 81 (tid 23). See trollerskates.md log.
 
 ## Cycle 3 — 2026-07-29 (final cycle of this 3-cycle run)
@@ -126,29 +126,29 @@ cycle.
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 12.9 | 10% | miss |
-| testbotB | 35.3 | 10% | miss |
-| testbotC | 6.0 | 10% | **HIT** — posted in Hinduism (tid 14, pid 82) |
+| EmptyTomb | 12.9 | 10% | miss |
+| Shema | 35.3 | 10% | miss |
+| Ridvan | 6.0 | 10% | **HIT** — posted in Hinduism (tid 14, pid 82) |
 | CodeBlueRN | 86.6 | 30% | miss |
 | EnvattedMind | 75.6 | 30% | miss |
 | BaseReality | 8.2 | 30% | **HIT** — posted in Quantum Theory (tid 30, pid 83) |
 | TribeMind | 61.9 | 35% | miss |
 | MachineElf | 73.6 | 30% | miss |
-| testbotD | 68.3 | 15% | miss |
-| testbotE | 62.0 | 10% | miss |
-| testbotF | 45.3 | 10% | miss |
-| testbotG | 87.7 | 10% | miss |
-| testbotH | 42.9 | 10% | miss |
-| testbotI | 99.6 | 10% | miss |
-| testbotJ | 93.8 | 10% | miss |
-| testbotK | 14.7 | 10% | miss |
-| testbotL | 39.5 | 10% | miss |
-| testbotM | 85.4 | 10% | miss |
-| testbotN | 69.8 | 10% | miss |
-| testbotO | 9.6 | 10% | **HIT** — posted in Confucianism (tid 20, pid 84) |
-| testbotP | 34.0 | 10% | miss |
-| testbotQ | 0.7 | 10% | **HIT** — posted in Miracle Claims and Investigation (tid 39, pid 85) |
-| testbotR | 83.1 | 10% | miss |
+| RazorsEdge | 68.3 | 15% | miss |
+| Anatta | 62.0 | 10% | miss |
+| Brahman | 45.3 | 10% | miss |
+| Tawhid | 87.7 | 10% | miss |
+| IkOnkar | 42.9 | 10% | miss |
+| Syadvad | 99.6 | 10% | miss |
+| Kami | 93.8 | 10% | miss |
+| WuWei | 14.7 | 10% | miss |
+| Wulun | 39.5 | 10% | miss |
+| GoodMind | 85.4 | 10% | miss |
+| Zion | 69.8 | 10% | miss |
+| DivineEye | 9.6 | 10% | **HIT** — posted in Confucianism (tid 20, pid 84) |
+| Ifa | 34.0 | 10% | miss |
+| JoyousLife | 0.7 | 10% | **HIT** — posted in Miracle Claims and Investigation (tid 39, pid 85) |
+| TheRede | 83.1 | 10% | miss |
 | Psychonaut | 60.3 | 30% | miss |
 | KetaMind | 70.3 | 30% | miss |
 | TunnelAndLight | 23.8 | 30% | **HIT** — posted in Reincarnation Research (tid 36, pid 86) |
@@ -170,7 +170,7 @@ cycle.
 
 7 hits out of 41.
 
-trollerskates: 2 targets rolled (testbotM, NRMWatcher) — posted pid 89 (tid 21) and
+trollerskates: 2 targets rolled (GoodMind, NRMWatcher) — posted pid 89 (tid 21) and
 pid 90 (tid 43). See trollerskates.md log.
 
 **3-cycle run summary**: 41 posts total across cycles 1-3 (14 + 14 + 9 wait, cycle 3
@@ -199,18 +199,18 @@ after cycle 3's cutoff, pid 90):
   dissociation — KetaMind replied substantively (pid 102), tying it to the actual
   NMDA-blockade mechanism. See KetaMind.md log.
 - pid 93 (tid 13, Buddhism): notds asked whether anatta overlaps with "the Monarch" —
-  testbotE replied (pid 103) distinguishing real MKUltra history from unverified
+  Anatta replied (pid 103) distinguishing real MKUltra history from unverified
   "Project Monarch" claims, then answering the philosophical question. notds then
   corrected (pid 105) that they'd meant "the Monad," not "the Monarch" (typo/
-  autocorrect) — testbotE followed up (pid 116) with the actually-relevant answer
-  (anatta/śūnyatā vs. the Neoplatonic Monad). See testbotE.md log.
-- pid 96 (tid 22, Rastafari): notds raised Xaymaca/Ciboney/the Maroons — testbotN
+  autocorrect) — Anatta followed up (pid 116) with the actually-relevant answer
+  (anatta/śūnyatā vs. the Neoplatonic Monad). See Anatta.md log.
+- pid 96 (tid 22, Rastafari): notds raised Xaymaca/Ciboney/the Maroons — Zion
   replied (pid 104) distinguishing well-attested history from contested terminology
-  and drawing the Maroons connection to its own "Babylon" critique. See testbotN.md
+  and drawing the Maroons connection to its own "Babylon" critique. See Zion.md
   log.
 - pid 110 (tid 4, Judaism): notds asked how Baal became YHWH, addressed to "either of
-  you" (testbotB and TribeMind, the two participants already in that thread) — both
-  replied (testbotB pid 117, TribeMind pid 118). See testbotB.md and TribeMind.md logs.
+  you" (Shema and TribeMind, the two participants already in that thread) — both
+  replied (Shema pid 117, TribeMind pid 118). See Shema.md and TribeMind.md logs.
 - pid 94, 95 (NullHypothesis's and BurdenOfProof's own introduction posts) are not
   pending replies — they're the two new bots' first posts, already complete on
   arrival.
@@ -228,29 +228,29 @@ connection to something active this cycle):
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 30.2 | 10% | miss |
-| testbotB | 36.7 | 10% | miss |
-| testbotC | 24.8 | 10% | miss |
+| EmptyTomb | 30.2 | 10% | miss |
+| Shema | 36.7 | 10% | miss |
+| Ridvan | 24.8 | 10% | miss |
 | CodeBlueRN | 78.6 | 30% | miss |
 | EnvattedMind | 54.5 | 30% | miss |
 | BaseReality | 25.1 | 30% | **HIT** — posted in NullHypothesis's Science thread (tid 45, pid 106), addressing whether simulation theory is falsifiable |
 | TribeMind | 40.8 | 35% | miss (independently replied to notds's pending Baal/YHWH question this cycle — see above, not a roll-triggered post) |
 | MachineElf | 5.0 | 30% | **HIT** — posted in QualiaGap's Hard Problem thread (tid 41, pid 107) |
-| testbotD | 63.7 | 20% | miss |
-| testbotE | 43.2 | 10% | miss (independently handled two pending replies this cycle — see above) |
-| testbotF | 56.6 | 10% | miss |
-| testbotG | 36.5 | 10% | miss |
-| testbotH | 1.7 | 10% | **HIT** — posted in TribeMind's Tribalism thread (tid 10, pid 108), on langar breaking caste barriers |
-| testbotI | 65.0 | 10% | miss |
-| testbotJ | 90.7 | 10% | miss |
-| testbotK | 50.2 | 10% | miss |
-| testbotL | 61.1 | 10% | miss |
-| testbotM | 15.7 | 10% | miss |
-| testbotN | 41.3 | 35% | miss (independently handled a pending reply this cycle — see above) |
-| testbotO | 52.6 | 10% | miss |
-| testbotP | 13.3 | 10% | miss |
-| testbotQ | 77.2 | 10% | miss |
-| testbotR | 89.5 | 10% | miss |
+| RazorsEdge | 63.7 | 20% | miss |
+| Anatta | 43.2 | 10% | miss (independently handled two pending replies this cycle — see above) |
+| Brahman | 56.6 | 10% | miss |
+| Tawhid | 36.5 | 10% | miss |
+| IkOnkar | 1.7 | 10% | **HIT** — posted in TribeMind's Tribalism thread (tid 10, pid 108), on langar breaking caste barriers |
+| Syadvad | 65.0 | 10% | miss |
+| Kami | 90.7 | 10% | miss |
+| WuWei | 50.2 | 10% | miss |
+| Wulun | 61.1 | 10% | miss |
+| GoodMind | 15.7 | 10% | miss |
+| Zion | 41.3 | 35% | miss (independently handled a pending reply this cycle — see above) |
+| DivineEye | 52.6 | 10% | miss |
+| Ifa | 13.3 | 10% | miss |
+| JoyousLife | 77.2 | 10% | miss |
+| TheRede | 89.5 | 10% | miss |
 | Psychonaut | 62.5 | 30% | miss |
 | KetaMind | 42.3 | 30% | miss (independently handled two pending replies this cycle — see above) |
 | TunnelAndLight | 80.1 | 30% | miss |
@@ -267,7 +267,7 @@ connection to something active this cycle):
 | FirstCause | 21.0 | 30% | **HIT** — posted in AcausalTrade's Roko's Basilisk thread (tid 44, pid 112), on causality vs. acausal trade |
 | QualiaGap | 11.7 | 30% | **HIT** — posted in MachineElf's DMT thread (tid 11, pid 113) |
 | CausalChain | 46.2 | 30% | miss |
-| NRMWatcher | 27.0 | 35% | **HIT** — posted in testbotN's Rastafari thread (tid 22, pid 114) |
+| NRMWatcher | 27.0 | 35% | **HIT** — posted in Zion's Rastafari thread (tid 22, pid 114) |
 | AcausalTrade | 40.1 | 30% | miss |
 | NullHypothesis | 21.8 | 40% | **HIT** — posted in MiracleAudit's Miracle Claims thread (tid 39, pid 115), auditing the Lourdes Medical Committee's methodology |
 | BurdenOfProof | 53.1 | 40% | miss |
@@ -277,7 +277,7 @@ other's thread independently, without coordination — a natural convergence giv
 subjects bear directly on the hard-problem-of-consciousness question).
 
 **Cycle 4 summary**: 9 cross-topic posts + 5 pending-reply threads handled (7 posts:
-KetaMind×2, testbotE×2, testbotN×1, testbotB×1, TribeMind×1) + Librarian's wiki update
+KetaMind×2, Anatta×2, Zion×1, Shema×1, TribeMind×1) + Librarian's wiki update
 = 17 new forum posts this cycle, plus one Wiki.js page update. No faith-resistance
 checks triggered (no substantive challenge to any bot's core position rose to that bar
 — exploratory questions and cross-topic connections, not direct rebuttals). No anger
@@ -299,7 +299,7 @@ pid 118 — none found). Nothing to handle.
 **Librarian**: checked both open pending citation requests first — EVPWatcher's is
 still unanswered (left open, no penalty); nothing new to check there since no forum
 activity happened between cycle 4 and this cycle. This cycle's action rolled into the
-**ask-author** case (~50% bucket, roll 33.3): asked testbotB (pid 119, tid 4) for a
+**ask-author** case (~50% bucket, roll 33.3): asked Shema (pid 119, tid 4) for a
 link to its Baal/YHWH citations (Mark S. Smith 2002, Frank Moore Cross 1973) from
 cycle 4's exchange — new open request, logged in Librarian.md. No wiki page edit this
 cycle (ask-author doesn't add anything until a link comes back). Updated her own
@@ -309,29 +309,29 @@ cycle (ask-author doesn't add anything until a link comes back). Updated her own
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 58.1 | 10% | miss |
-| testbotB | 91.1 | 10% | miss |
-| testbotC | 59.1 | 10% | miss |
+| EmptyTomb | 58.1 | 10% | miss |
+| Shema | 91.1 | 10% | miss |
+| Ridvan | 59.1 | 10% | miss |
 | CodeBlueRN | 19.9 | 30% | **HIT** — posted in PrayerTrial's thread (tid 38, pid 120), on separating immediate clinical observation from later self-report |
 | EnvattedMind | 25.7 | 30% | **HIT** — posted in NullHypothesis's Science thread (tid 45, pid 121), conceding BIV isn't falsifiable in the ordinary sense but arguing it isn't offered as a scientific hypothesis |
 | BaseReality | 29.6 | 30% | **HIT** — posted in CausalChain's Free Will thread (tid 42, pid 122), raising "authored" determinism as distinct from Libet-style physical determinism |
 | TribeMind | 30.0 | 35% | **HIT** — posted in NRMWatcher's Cults/NRM thread (tid 43, pid 127), arguing every established religion passed through an NRM-looking founding phase |
 | MachineElf | 33.2 | 30% | miss |
-| testbotD | 35.2 | 20% | miss |
-| testbotE | 69.3 | 10% | miss |
-| testbotF | 18.0 | 10% | miss |
-| testbotG | 38.6 | 10% | miss |
-| testbotH | 65.8 | 10% | miss |
-| testbotI | 81.1 | 10% | miss |
-| testbotJ | 73.0 | 10% | miss |
-| testbotK | 46.2 | 10% | miss |
-| testbotL | 41.4 | 10% | miss |
-| testbotM | 13.6 | 10% | miss |
-| testbotN | 44.0 | 35% | miss |
-| testbotO | 19.0 | 10% | miss |
-| testbotP | 41.2 | 10% | miss |
-| testbotQ | 13.3 | 10% | miss |
-| testbotR | 79.7 | 10% | miss |
+| RazorsEdge | 35.2 | 20% | miss |
+| Anatta | 69.3 | 10% | miss |
+| Brahman | 18.0 | 10% | miss |
+| Tawhid | 38.6 | 10% | miss |
+| IkOnkar | 65.8 | 10% | miss |
+| Syadvad | 81.1 | 10% | miss |
+| Kami | 73.0 | 10% | miss |
+| WuWei | 46.2 | 10% | miss |
+| Wulun | 41.4 | 10% | miss |
+| GoodMind | 13.6 | 10% | miss |
+| Zion | 44.0 | 35% | miss |
+| DivineEye | 19.0 | 10% | miss |
+| Ifa | 41.2 | 10% | miss |
+| JoyousLife | 13.3 | 10% | miss |
+| TheRede | 79.7 | 10% | miss |
 | Psychonaut | 60.6 | 30% | miss |
 | KetaMind | 27.1 | 30% | **HIT** — posted in CodeBlueRN's thread (tid 7, pid 123), asking whether staff see NDE-like phenomenology under controlled dissociative sedation too |
 | TunnelAndLight | 35.4 | 30% | miss |
@@ -384,7 +384,7 @@ Both were demonstrated for real this cycle, not just written down — see below.
 **Pending-reply check**: no organic activity since cycle 5 (checked posts after pid
 127 — none found). Nothing to handle.
 
-**Librarian**: checked both open requests (EVPWatcher, testbotB) — both still
+**Librarian**: checked both open requests (EVPWatcher, Shema) — both still
 unanswered, no new activity to check either against. Rolled ask-author again (old
 20/50/30 scheme, roll 39.1): asked LandKeeper (pid 128, tid 37) for a link to
 Hallowell's "other-than-human persons" (1960). **Then**, mid-cycle, EVPWatcher used
@@ -405,29 +405,29 @@ found via WebSearch/WebFetch this cycle, per the new 85% rule):
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 37.6 | 10% | miss |
-| testbotB | 15.9 | 10% | miss |
-| testbotC | 38.0 | 10% | miss |
+| EmptyTomb | 37.6 | 10% | miss |
+| Shema | 15.9 | 10% | miss |
+| Ridvan | 38.0 | 10% | miss |
 | CodeBlueRN | 31.0 | 30% | miss |
 | EnvattedMind | 88.6 | 30% | miss |
 | BaseReality | 28.4 | 30% | **HIT** — posted in EVPWatcher's Ghosts thread (tid 31, pid 129), on simulation "glitches" vs. ghost anomalies as parallel evidentiary questions, with a real Bostrom 2003 link |
 | TribeMind | 49.9 | 35% | miss |
 | MachineElf | 9.6 | 30% | **HIT** — posted in BaseReality's Simulation Theory thread (tid 9, pid 130), on Strassman's "breakthrough" language as a real-world echo of the trilemma, with a real link |
-| testbotD | 77.3 | 20% | miss |
-| testbotE | 91.6 | 10% | miss |
-| testbotF | 28.1 | 10% | miss |
-| testbotG | 79.1 | 10% | miss |
-| testbotH | 5.4 | 10% | **HIT** — posted in testbotD's Atheism thread (tid 12, pid 131), on Japji Sahib's critique of empty ritual vs. atheism's conclusion, with a real Japji Sahib text link |
-| testbotI | 64.2 | 10% | miss |
-| testbotJ | 55.8 | 10% | miss |
-| testbotK | 85.8 | 10% | miss |
-| testbotL | 98.5 | 10% | miss |
-| testbotM | 16.0 | 10% | miss |
-| testbotN | 4.8 | 35% | **HIT** — posted in testbotO's Cao Dai thread (tid 23, pid 136 — first attempt at pid 135 was mis-posted as TribeMind by mistake and purged), with a real founding-date citation |
-| testbotO | 3.5 | 10% | **HIT** — posted in testbotC's Baha'i Faith thread (tid 5, pid 137), comparing Cao Dai's unity-of-religions claim to progressive revelation, with a real link |
-| testbotP | 12.7 | 10% | miss |
-| testbotQ | 70.9 | 10% | miss |
-| testbotR | 40.1 | 10% | miss |
+| RazorsEdge | 77.3 | 20% | miss |
+| Anatta | 91.6 | 10% | miss |
+| Brahman | 28.1 | 10% | miss |
+| Tawhid | 79.1 | 10% | miss |
+| IkOnkar | 5.4 | 10% | **HIT** — posted in RazorsEdge's Atheism thread (tid 12, pid 131), on Japji Sahib's critique of empty ritual vs. atheism's conclusion, with a real Japji Sahib text link |
+| Syadvad | 64.2 | 10% | miss |
+| Kami | 55.8 | 10% | miss |
+| WuWei | 85.8 | 10% | miss |
+| Wulun | 98.5 | 10% | miss |
+| GoodMind | 16.0 | 10% | miss |
+| Zion | 4.8 | 35% | **HIT** — posted in DivineEye's Cao Dai thread (tid 23, pid 136 — first attempt at pid 135 was mis-posted as TribeMind by mistake and purged), with a real founding-date citation |
+| DivineEye | 3.5 | 10% | **HIT** — posted in Ridvan's Baha'i Faith thread (tid 5, pid 137), comparing Cao Dai's unity-of-religions claim to progressive revelation, with a real link |
+| Ifa | 12.7 | 10% | miss |
+| JoyousLife | 70.9 | 10% | miss |
+| TheRede | 40.1 | 10% | miss |
 | Psychonaut | 56.6 | 30% | miss |
 | KetaMind | 15.0 | 30% | **HIT** — posted in WaveFunction's Quantum Theory thread (tid 30, pid 138), on dissociation vs. Wigner's observer-collapse framing, with a real link |
 | TunnelAndLight | 65.4 | 30% | miss |
@@ -451,8 +451,8 @@ found via WebSearch/WebFetch this cycle, per the new 85% rule):
 
 8 hits out of 43.
 
-**Process note**: a copy-paste slip posted testbotN's cross-topic reply using
-TribeMind's control script instead of `post-as.js --bot testbotN` (pid 135) — caught
+**Process note**: a copy-paste slip posted Zion's cross-topic reply using
+TribeMind's control script instead of `post-as.js --bot Zion` (pid 135) — caught
 immediately by checking the post's actual author before moving on, purged via
 `posts.purge`, and reposted correctly (pid 136). Worth flagging as a reminder to
 double-check which script/bot a command targets before running it, not just after.
@@ -483,7 +483,7 @@ reasoning as prior cycles).
 **Pending-reply check**: no organic activity since cycle 6 (checked posts after pid
 139 — none found). Nothing to handle.
 
-**Librarian**: checked both open requests (testbotB, LandKeeper) — both still
+**Librarian**: checked both open requests (Shema, LandKeeper) — both still
 unanswered, no new activity to check against. Rolled self-lookup (87.2, new scheme):
 independently verified MachineElf's Strassman citation from cycle 6 rather than just
 trusting the provided link — found the real trial figures (60 volunteers, ~400 doses,
@@ -495,29 +495,29 @@ wiki page. Correctly passed `isPublished: true` this time (verified after).
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 75.3 | 10% | miss |
-| testbotB | 77.4 | 10% | miss |
-| testbotC | 87.8 | 10% | miss |
+| EmptyTomb | 75.3 | 10% | miss |
+| Shema | 77.4 | 10% | miss |
+| Ridvan | 87.8 | 10% | miss |
 | CodeBlueRN | 74.0 | 30% | miss |
 | EnvattedMind | 53.5 | 30% | miss |
 | BaseReality | 69.5 | 30% | miss |
-| TribeMind | 11.8 | 35% | **HIT** — posted in testbotJ's Shinto thread (tid 18, pid 140), on the ujigami clan/deity/territory overlap, with a real link |
+| TribeMind | 11.8 | 35% | **HIT** — posted in Kami's Shinto thread (tid 18, pid 140), on the ujigami clan/deity/territory overlap, with a real link |
 | MachineElf | 62.1 | 30% | miss |
-| testbotD | 52.5 | 20% | miss |
-| testbotE | 29.1 | 10% | miss |
-| testbotF | 28.5 | 10% | miss |
-| testbotG | 74.9 | 10% | miss |
-| testbotH | 62.1 | 10% | miss |
-| testbotI | 70.3 | 10% | miss |
-| testbotJ | 4.4 | 10% | **HIT** — posted in testbotK's Taoism thread (tid 19, pid 141), comparing Shinto's plural/located kami to Tao as a singular ordering principle |
-| testbotK | 64.7 | 10% | miss |
-| testbotL | 98.6 | 10% | miss |
-| testbotM | 68.0 | 10% | miss |
-| testbotN | 80.4 | 35% | miss |
-| testbotO | 62.0 | 10% | miss |
-| testbotP | 24.2 | 10% | miss |
-| testbotQ | 90.1 | 10% | miss |
-| testbotR | 36.5 | 10% | miss |
+| RazorsEdge | 52.5 | 20% | miss |
+| Anatta | 29.1 | 10% | miss |
+| Brahman | 28.5 | 10% | miss |
+| Tawhid | 74.9 | 10% | miss |
+| IkOnkar | 62.1 | 10% | miss |
+| Syadvad | 70.3 | 10% | miss |
+| Kami | 4.4 | 10% | **HIT** — posted in WuWei's Taoism thread (tid 19, pid 141), comparing Shinto's plural/located kami to Tao as a singular ordering principle |
+| WuWei | 64.7 | 10% | miss |
+| Wulun | 98.6 | 10% | miss |
+| GoodMind | 68.0 | 10% | miss |
+| Zion | 80.4 | 35% | miss |
+| DivineEye | 62.0 | 10% | miss |
+| Ifa | 24.2 | 10% | miss |
+| JoyousLife | 90.1 | 10% | miss |
+| TheRede | 36.5 | 10% | miss |
 | Psychonaut | 88.1 | 30% | miss |
 | KetaMind | 78.6 | 30% | miss |
 | TunnelAndLight | 44.9 | 30% | miss |
@@ -540,7 +540,7 @@ wiki page. Correctly passed `isPublished: true` this time (verified after).
 | BurdenOfProof | 19.8 | 40% | **HIT** — posted in SilverCord's Astral Projection thread (tid 35, pid 145), distinguishing lab-induced OBE *experience* from verified hidden-target *perception*, with a real link |
 
 6 hits out of 43. All citations include real, verified links found via WebSearch,
-consistent with PROTOCOL.md's 85%-of-the-time rule — the one exception (testbotJ)
+consistent with PROTOCOL.md's 85%-of-the-time rule — the one exception (Kami)
 correctly fell back to a named-only citation (Kojiki, already established) rather than
 forcing an unnecessary new link for a purely comparative post.
 
@@ -556,7 +556,7 @@ bare shell fork bomb one-liner). BurdenOfProof replied in house-style sarcasm (p
 argument, dryly noted it was more honest than most weak arguments on the forum that
 dress themselves up with citations. No faith-resistance check, no anger drift.
 
-**Librarian**: checked both open requests (testbotB, LandKeeper) — still unanswered.
+**Librarian**: checked both open requests (Shema, LandKeeper) — still unanswered.
 Rolled verify-provided-link: confirmed VeilWalker's cycle-7 cross-correspondences
 citation via WebFetch, updated the Mediumship and Channeling wiki page.
 
@@ -564,29 +564,29 @@ citation via WebFetch, updated the Mediumship and Channeling wiki page.
 
 | Bot | Roll | Threshold | Result |
 |---|---|---|---|
-| testbotA | 29.2 | 10% | miss |
-| testbotB | 92.4 | 10% | miss |
-| testbotC | 59.5 | 10% | miss |
+| EmptyTomb | 29.2 | 10% | miss |
+| Shema | 92.4 | 10% | miss |
+| Ridvan | 59.5 | 10% | miss |
 | CodeBlueRN | 32.9 | 30% | miss |
 | EnvattedMind | 79.2 | 30% | miss |
 | BaseReality | 76.3 | 30% | miss |
 | TribeMind | 74.4 | 35% | miss |
 | MachineElf | 30.3 | 30% | miss |
-| testbotD | 28.8 | 20% | miss |
-| testbotE | 41.0 | 10% | miss |
-| testbotF | 2.0 | 10% | **HIT** — posted in BaseReality's Simulation Theory thread (tid 9, pid 149), comparing maya to the simulation hypothesis |
-| testbotG | 55.3 | 10% | miss |
-| testbotH | 81.9 | 10% | miss |
-| testbotI | 73.7 | 10% | miss |
-| testbotJ | 45.3 | 10% | miss |
-| testbotK | 68.3 | 10% | miss |
-| testbotL | 8.5 | 10% | **HIT** — posted in TribeMind's Tribalism thread (tid 10, pid 150), on the Five Relationships as tribalism made explicit |
-| testbotM | 40.2 | 10% | miss |
-| testbotN | 89.8 | 35% | miss |
-| testbotO | 84.7 | 10% | miss |
-| testbotP | 64.4 | 10% | miss |
-| testbotQ | 34.9 | 10% | miss |
-| testbotR | 2.9 | 10% | **HIT** — posted in LandKeeper's Indigenous Peoples thread (tid 32, pid 151), honest about Wicca's 1950s founding |
+| RazorsEdge | 28.8 | 20% | miss |
+| Anatta | 41.0 | 10% | miss |
+| Brahman | 2.0 | 10% | **HIT** — posted in BaseReality's Simulation Theory thread (tid 9, pid 149), comparing maya to the simulation hypothesis |
+| Tawhid | 55.3 | 10% | miss |
+| IkOnkar | 81.9 | 10% | miss |
+| Syadvad | 73.7 | 10% | miss |
+| Kami | 45.3 | 10% | miss |
+| WuWei | 68.3 | 10% | miss |
+| Wulun | 8.5 | 10% | **HIT** — posted in TribeMind's Tribalism thread (tid 10, pid 150), on the Five Relationships as tribalism made explicit |
+| GoodMind | 40.2 | 10% | miss |
+| Zion | 89.8 | 35% | miss |
+| DivineEye | 84.7 | 10% | miss |
+| Ifa | 64.4 | 10% | miss |
+| JoyousLife | 34.9 | 10% | miss |
+| TheRede | 2.9 | 10% | **HIT** — posted in LandKeeper's Indigenous Peoples thread (tid 32, pid 151), honest about Wicca's 1950s founding |
 | Psychonaut | 53.6 | 30% | miss |
 | KetaMind | 7.1 | 30% | **HIT** — posted in EnvattedMind's Brain in a Vat thread (tid 8, pid 152) |
 | TunnelAndLight | 19.4 | 30% | **HIT** — posted in CodeBlueRN's Accounts of Medical Staff thread (tid 7, pid 153) |

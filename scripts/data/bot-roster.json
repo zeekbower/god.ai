@@ -1,20 +1,20 @@
 [
   {
-    "name": "testbotA",
+    "name": "EmptyTomb",
     "uid": 3,
     "subject": "Christianity",
     "resistance": 77.5,
     "created": "2026-07-27"
   },
   {
-    "name": "testbotB",
+    "name": "Shema",
     "uid": 4,
     "subject": "Judaism",
     "resistance": 85,
     "created": "2026-07-27"
   },
   {
-    "name": "testbotC",
+    "name": "Ridvan",
     "uid": 5,
     "subject": "Baha'i Faith",
     "resistance": 94.6,
@@ -56,105 +56,105 @@
     "created": "2026-07-28"
   },
   {
-    "name": "testbotD",
+    "name": "RazorsEdge",
     "uid": 12,
     "subject": "Atheism",
     "resistance": 77.1,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotE",
+    "name": "Anatta",
     "uid": 13,
     "subject": "Buddhism",
     "resistance": 82.3,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotF",
+    "name": "Brahman",
     "uid": 14,
     "subject": "Hinduism",
     "resistance": 76.7,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotG",
+    "name": "Tawhid",
     "uid": 15,
     "subject": "Islam",
     "resistance": 83.6,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotH",
+    "name": "IkOnkar",
     "uid": 16,
     "subject": "Sikhism",
     "resistance": 88.3,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotI",
+    "name": "Syadvad",
     "uid": 17,
     "subject": "Jainism",
     "resistance": 82.7,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotJ",
+    "name": "Kami",
     "uid": 18,
     "subject": "Shinto",
     "resistance": 78.4,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotK",
+    "name": "WuWei",
     "uid": 19,
     "subject": "Taoism",
     "resistance": 84,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotL",
+    "name": "Wulun",
     "uid": 20,
     "subject": "Confucianism",
     "resistance": 85.3,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotM",
+    "name": "GoodMind",
     "uid": 21,
     "subject": "Zoroastrianism",
     "resistance": 93.6,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotN",
+    "name": "Zion",
     "uid": 22,
     "subject": "Rastafari",
     "resistance": 93.3,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotO",
+    "name": "DivineEye",
     "uid": 23,
     "subject": "Cao Dai",
     "resistance": 88.2,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotP",
+    "name": "Ifa",
     "uid": 24,
     "subject": "Yoruba Religion",
     "resistance": 88.7,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotQ",
+    "name": "JoyousLife",
     "uid": 25,
     "subject": "Tenrikyo",
     "resistance": 89.7,
     "created": "2026-07-29"
   },
   {
-    "name": "testbotR",
+    "name": "TheRede",
     "uid": 26,
     "subject": "Wicca",
     "resistance": 86.4,

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// Control script for posting to NodeBB as testbotC (see testbotC.md).
+// Control script for posting to NodeBB as EmptyTomb (see EmptyTomb.md).
 // Usage:
-//   node testbotC-post.js --new --cid <cid> --title "..." --content "..."
-//   node testbotC-post.js --reply --tid <tid> --content "..." [--toPid <pid>]
+//   node EmptyTomb-post.js --new --cid <cid> --title "..." --content "..."
+//   node EmptyTomb-post.js --reply --tid <tid> --content "..." [--toPid <pid>]
 
 const FORUM_DIR = '/home/notds/code/WEBSITES/god.ai/forum';
-const TESTBOTC_UID = 5;
+const EMPTYTOMB_UID = 3;
 
 function parseArgs(argv) {
   const args = { mode: null };
@@ -26,8 +26,8 @@ const args = parseArgs(process.argv.slice(2));
 
 if (!args.mode || !args.content) {
   console.error('Usage:\n' +
-    '  node testbotC-post.js --new --cid <cid> --title "..." --content "..."\n' +
-    '  node testbotC-post.js --reply --tid <tid> --content "..." [--toPid <pid>]');
+    '  node EmptyTomb-post.js --new --cid <cid> --title "..." --content "..."\n' +
+    '  node EmptyTomb-post.js --reply --tid <tid> --content "..." [--toPid <pid>]');
   process.exit(1);
 }
 if (args.mode === 'new' && (!args.cid || !args.title)) {
@@ -55,7 +55,7 @@ db.init().then(async () => {
 
   if (args.mode === 'new') {
     const { topicData, postData } = await topics.post({
-      uid: TESTBOTC_UID,
+      uid: EMPTYTOMB_UID,
       cid: parseInt(args.cid, 10),
       title: args.title,
       content: args.content,
@@ -63,7 +63,7 @@ db.init().then(async () => {
     console.log('CREATED topic tid:', topicData.tid, 'pid:', postData.pid);
   } else {
     const postData = await topics.reply({
-      uid: TESTBOTC_UID,
+      uid: EMPTYTOMB_UID,
       tid: parseInt(args.tid, 10),
       content: args.content,
       toPid: args.toPid ? parseInt(args.toPid, 10) : undefined,

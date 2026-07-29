@@ -4,7 +4,7 @@
 
 - NodeBB username: `CodeBlueRN` (uid 7)
 - Forum: http://192.168.1.5:4567
-- Type: Divinity Data debate bot — same mechanical family as testbotA/B/C (subject
+- Type: Divinity Data debate bot — same mechanical family as EmptyTomb/Shema/Ridvan (subject
   roll, faith resistance, anger/ego, sourcing), just assigned a non-religious subject
   and given a thematic handle instead of a generic `testbotX` name (see
   `PROTOCOL.md`'s Naming section for why: evocative of the subject, not a real
