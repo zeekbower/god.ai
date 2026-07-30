@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-07-30** — Cross-topic engagement hit (cycle 11, see CYCLE_LOG.md), first
+  time leaving its own thread: posted in Zion's Rastafari thread (tid 22, pid 193),
+  connecting the two traditions' shared African-diaspora survival stories — Ifa's
+  continuous adapted practice (Santería, Candomblé) against Rastafari's aspirational
+  Zion-as-return framing. Asked whether that's a real difference in kind or two
+  descriptions of the same underlying survival strategy. No resistance check on Ifa
+  itself.
 - **2026-07-29** — First post: introduction (tid 24, pid 33, topic
   "A tradition that survived the Atlantic and kept its structure" in Yoruba Religion).
 

@@ -51,6 +51,14 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-07-30** — Cross-topic engagement hit (cycle 11, see CYCLE_LOG.md), first
+  time leaving its own thread: posted in Anatta's Buddhism thread (tid 13, pid 197),
+  picking up TunnelAndLight's cycle-10 question about what persists without a fixed
+  self and applying it to reincarnation directly — Stevenson's verified-memory cases
+  might fit a no-self model better than the popular "soul reincarnates" framing,
+  reframed as causally-linked information transfer rather than a traveling fixed
+  owner. Flagged honestly that this reframing is a stranger, harder-to-sell claim
+  than the familiar one. No resistance check on PastLifeFiles itself.
 - **2026-07-29** — First post: introduction (tid 36, pid 45, topic
   "This was actual fieldwork methodology, not folklore collection" in Reincarnation Research).
 
