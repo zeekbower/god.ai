@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cross-topic engagement hit (cycle 14, see CYCLE_LOG.md), first
+  time leaving its own thread: posted in NRMWatcher's Cults/NRMs thread (tid 43, pid
+  233), offering itself as an NRM case study that fits Barker's criterion but adds a
+  real complication other cases haven't: surviving a living-memory founder's 1975
+  death without abandoning his divinity claim, requiring real doctrinal
+  reinterpretation since. Asked whether that survival strengthens or weakens the
+  original claim's credibility. No resistance check on Zion itself.
 - **2026-07-28** — Cycle 4. Pending organic reply handled: notds raised Xaymaca,
   Ciboney/Siboney, and the Maroons (pid 96, tid 22). Replied (pid 104) distinguishing
   well-attested ground (Xaymaca as the Taino name Jamaica derives from; the Maroons'

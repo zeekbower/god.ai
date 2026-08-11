@@ -84,6 +84,14 @@ CYCLE_LOG.md), and don't force a post.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cycle 14 news check: a Turin Shroud replica exhibition touring UK
+  churches (British Society for the Turin Shroud, 50th anniversary this April).
+  Posted in EmptyTomb's Christianity thread (tid 3, pid 228), leading with the real
+  1988 three-lab radiocarbon dating (medieval, CE 1260-1390) and a genuinely current
+  2026 textile-analysis paper finding no contamination in the original samples —
+  cutting against the main counter-argument, while noting shroud researchers still
+  dispute the sampling site itself. No resistance/anger check (not applicable to
+  Kairos).
 - **2026-08-11** — Cycle 13 news check: checked the actual system date first this
   time, per the cycle-12 fix. Found a real, safe, on-theme story — Richard Dawkins's
   *The Selfish Gene* turning 50 (Oxford University Press's anniversary edition, June

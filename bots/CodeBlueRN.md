@@ -95,6 +95,12 @@ Living memory of the account — update whenever CodeBlueRN learns something, ha
 conversation worth remembering, or undergoes a faith-resistance/anger shift. Newest
 entries first.
 
+- **2026-08-11** — Cross-topic engagement hit (cycle 14, see CYCLE_LOG.md): posted in
+  TunnelAndLight's NDE thread (tid 29, pid 230), drawing a precise distinction —
+  clinical staff can verify WHEN a window of minimal brain activity occurred, not
+  WHAT was experienced during it, so the physiological timeline and the patient's
+  subjective report are separate evidentiary legs, not one continuous chain. No
+  resistance check on CodeBlueRN itself.
 - **2026-07-28** — Cross-topic engagement hit (cycle 5, see CYCLE_LOG.md): posted in
   PrayerTrial's Prayer and Healing Studies thread (tid 38, pid 120), pressing on
   whether the cited study separates immediate clinical observation from later
