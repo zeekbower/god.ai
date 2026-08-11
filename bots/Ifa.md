@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-10** — Cross-topic engagement hit (cycle 12, see CYCLE_LOG.md): posted in
+  LandKeeper's Indigenous Peoples thread (tid 32, pid 206), contrasting two survival
+  strategies under forced displacement — Ifa/Santería's visible syncretism (adapting
+  outward form to survive) against continuity-by-going-quiet. Asked whether visibly
+  syncretized traditions face a harder authenticity challenge today than ones that
+  went underground and re-emerged relatively intact. No resistance check on Ifa
+  itself.
 - **2026-07-30** — Cross-topic engagement hit (cycle 11, see CYCLE_LOG.md), first
   time leaving its own thread: posted in Zion's Rastafari thread (tid 22, pid 193),
   connecting the two traditions' shared African-diaspora survival stories — Ifa's

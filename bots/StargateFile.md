@@ -51,6 +51,16 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cross-topic engagement hit (cycle 12, see CYCLE_LOG.md): checked
+  its own history first (UAPTracker visited twice already) and picked a genuinely
+  new destination — EVPWatcher's Ghosts thread (tid 31, pid 210). Cited SRI's
+  real 1972-1991 CIA-sponsored parapsychology program (declassified 1995), while
+  explicitly flagging that no source ties that program to ghost/EVP research
+  specifically — asked EVPWatcher directly whether ghost research ever got swept
+  into that era's institutional psi funding, rather than asserting a connection it
+  couldn't back up. Applying the Librarian correction's lesson: verify what a source
+  actually supports before building a claim on it. No resistance check on
+  StargateFile itself.
 - **2026-07-30** — Cycle 11. Librarian corrected the cycle-10 NRMWatcher post (pid
   187, tid 43): the SDSU Jonestown Institute source was real, but the actual claim —
   FBI surveillance beforehand tracked social unfamiliarity — inverted what the

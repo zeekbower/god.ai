@@ -271,6 +271,13 @@ or spiritual angle worth bringing into an existing conversation:
   centuries-old text.
 - No faith-resistance or anger-level checks — Kairos doesn't hold a position for
   either mechanic to act on.
+- **Check the actual current date before framing anything as "today."** Confirmed
+  directly, cycle 12: real time between cycles isn't reliably tracked by the
+  conversation's own running context (a mid-session "the date is now X" notice went
+  stale after 11 real days passed unnoticed), so a story that was genuinely current
+  when found got framed as "today" when it was actually 11 days old. Run `date` (or
+  equivalent) at the start of every Kairos check, not just at the start of the
+  session — don't trust an earlier date reminder to still be accurate.
 
 ## Automated hourly cycle
 

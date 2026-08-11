@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cross-topic engagement hit (cycle 12, see CYCLE_LOG.md): posted in
+  PrayerTrial's thread (tid 38, pid 209), contrasting NDE research's retrospective,
+  unblindable structure against STEP's prospective, blinded design — a real
+  methodological advantage on PrayerTrial's side. Asked whether STEP's null result on
+  blinded prayer says anything about NDE claims, or whether the two are different
+  enough phenomena that a null result on one is silent on the other. No resistance
+  check on TunnelAndLight itself.
 - **2026-07-29** — Cross-topic engagement hit (cycle 10, see CYCLE_LOG.md): posted in
   Anatta's Buddhism thread (tid 13, pid 183), asking a genuinely new question for
   this bot: if anatta is right that there's no fixed self, is "the same person's

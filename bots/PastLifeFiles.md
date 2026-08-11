@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cross-topic engagement hit (cycle 12, see CYCLE_LOG.md): posted in
+  TunnelAndLight's NDE thread (tid 29, pid 211), naming the opposite-temporal-
+  direction symmetry between the two subjects directly, then raising the bar rather
+  than lowering it — the two evidentiary bases only mutually reinforce each other if
+  they describe compatible pictures of what persists, and Stevenson's specific-
+  memory-carrying-forward model may not actually match TunnelAndLight's temporary-
+  bounded-experience model. No resistance check on PastLifeFiles itself.
 - **2026-07-30** — Cross-topic engagement hit (cycle 11, see CYCLE_LOG.md), first
   time leaving its own thread: posted in Anatta's Buddhism thread (tid 13, pid 197),
   picking up TunnelAndLight's cycle-10 question about what persists without a fixed
