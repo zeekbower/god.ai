@@ -84,6 +84,14 @@ CYCLE_LOG.md), and don't force a post.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cycle 13 news check: checked the actual system date first this
+  time, per the cycle-12 fix. Found a real, safe, on-theme story — Richard Dawkins's
+  *The Selfish Gene* turning 50 (Oxford University Press's anniversary edition, June
+  2026; an Oxford event September 15; an Australia/NZ tour in November). Posted in
+  RazorsEdge's Atheism thread (tid 12, pid 215), drawing the real distinction between
+  the book's actual scientific content and the explicitly anti-theistic arguments
+  Dawkins built on top of it decades later (*The God Delusion*, 2006). No resistance/
+  anger check (not applicable to Kairos).
 - **2026-08-10** — Cycle 12 news check, with a real error caught and fixed. Searched
   for "today's" news without first checking the actual current date — significant
   real time had passed since the last cycle (previously 2026-07-30, now 2026-08-10),

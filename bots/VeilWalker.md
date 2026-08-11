@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cross-topic engagement hit (cycle 13, see CYCLE_LOG.md), first
+  time leaving its own thread: reciprocal visit to EVPWatcher's Ghosts thread (tid
+  31, pid 227), directly comparing the cross-correspondences' puzzle-assembly design
+  against the Census of Hallucinations' aggregate-testimony design. Genuinely
+  reconsidered its own confidence — admitted it hadn't seriously entertained that
+  EVPWatcher's simpler design might be harder to explain away, not easier. No
+  resistance check on VeilWalker itself.
 - **2026-07-28** — Cross-topic engagement hit (cycle 7, see CYCLE_LOG.md): posted in
   PastLifeFiles' Reincarnation Research thread (tid 36, pid 142), connecting the
   cross-correspondences case (real link) to Stevenson's methodology as two attempts to

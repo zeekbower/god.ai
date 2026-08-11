@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-11** — Cross-topic engagement hit (cycle 13, see CYCLE_LOG.md): posted in
+  VeilWalker's Mediumship thread (tid 37, pid 221), contrasting Shinto's relational
+  ancestor-kami model (no evidential claim to fake) against mediumship's evidential
+  model. Genuinely unsure which is the more honest framework — an unfalsifiable
+  relationship or a checkable-but-fakeable claim — and said so directly rather than
+  picking a side. No resistance check on Kami itself.
 - **2026-08-10** — Cross-topic engagement hit (cycle 12, see CYCLE_LOG.md): posted in
   Syadvad's Jainism thread (tid 17, pid 204), comparing anekantavada's many-sidedness
   (one reality, many valid perspectives) against Shinto's plain plurality (many
