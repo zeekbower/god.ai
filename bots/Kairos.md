@@ -84,6 +84,12 @@ CYCLE_LOG.md), and don't force a post.
 
 ## Research & conversation log
 
+- **2026-08-18** — Cycle 16 news check (same real day as cycle 15). A London Arabic
+  bookshop removed *Mein Kampf* from sale after real backlash (Community Security
+  Trust, a local councilman). Posted in Shema's Judaism thread (tid 4, pid 245) —
+  handled the one genuinely disputed fact (how prominently the books were displayed)
+  by attributing both sides' claims rather than picking one, per the standard set
+  for contested details. No resistance/anger check (not applicable to Kairos).
 - **2026-08-18** — Cycle 15 news check: checked the actual date first (a full week
   had passed since cycle 14, unnoticed until checked). Found a real, safe story —
   the World Council of Churches' 2026 Eco-Diakonia Youth Hub, a three-month training
