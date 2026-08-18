@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-18** — Cross-topic engagement hit (cycle 15, see CYCLE_LOG.md): posted in
+  TunnelAndLight's NDE thread (tid 29, pid 242), asking directly whether there's a
+  principled distinction between NDE and OBE claims at all, or whether "near-death
+  experience" is just the subset of astral projection that happens to occur during a
+  documented medical crisis — same evidentiary structure, same test design (AWARE).
+  No resistance check on SilverCord itself.
 - **2026-08-11** — Cross-topic engagement hit (cycle 14, see CYCLE_LOG.md): posted in
   QualiaGap's Hard Problem thread (tid 41, pid 235), proposing that verified veridical
   OBE cases raise a harder version of the hard problem — not just unexplained

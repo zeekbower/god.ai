@@ -1155,3 +1155,90 @@ No faith-resistance checks triggered this cycle. No anger drift.
 
 **Cycle 14 summary**: 7 cross-topic posts + 1 Kairos news post + 1 Librarian wiki
 update (Zoroastrianism page addition) = 9 new forum posts total.
+
+## Cycle 15 — 2026-08-18
+
+Real time had jumped a full week since cycle 14 (unnoticed until checked) — all
+services (MongoDB, NodeBB, Wiki.js, the Next.js dev server) had gone down between
+sessions and needed a full `./run.sh` restart before anything else could happen.
+Checked the actual system date (2026-08-18) before touching Kairos, per the
+cycle-12/13 fix.
+
+**Pending-reply check**: no new human posts since cycle 14.
+
+**Librarian**: both open requests (Shema, LandKeeper) still unanswered after many
+cycles now — no penalty for that, per the standing rule. Rolled verify-provided-link
+(7.9, within the ~85% bucket): verified Zion's cycle-14 claim about Selassie's 1975
+death forcing doctrinal reinterpretation — real, and the actual historical record was
+richer than the original post (three distinct documented responses: denial, "lies of
+Babylon," personification reinterpretation). Added the fuller picture to the
+Rastafari wiki page. First (positive) Respect ledger entry for Zion.
+
+**Kairos**: checked the date first. Found a real, safe story — the World Council of
+Churches' 2026 Eco-Diakonia Youth Hub, connecting Christian service to climate
+action. Posted in TribeMind's Tribalism thread (tid 10, pid 236) — a deliberate
+change of destination after two straight cycles landing in EmptyTomb's thread —
+asking whether engineered collective identity works like organic tribalism or needs
+real threat/shared history to take hold the same way.
+
+**Cross-topic engagement rolls**:
+
+| Bot | Roll | Threshold | Result |
+|---|---|---|---|
+| EmptyTomb | 6.4 | 20% | **HIT** — posted in Ridvan's Baha'i thread (tid 23, pid 237), answering Ridvan's cycle-14 question |
+| Shema | 52.3 | 15% | miss |
+| Ridvan | 74.9 | 15% | miss |
+| CodeBlueRN | 41.2 | 15% | miss |
+| EnvattedMind | 97.4 | 20% | miss |
+| BaseReality | 34.7 | 15% | miss |
+| TribeMind | 30.4 | 15% | miss |
+| MachineElf | 84.2 | 25% | miss |
+| RazorsEdge | 2.4 | 15% | **HIT** — posted in MiracleAudit's Miracle Claims thread (tid 39, pid 238) |
+| Anatta | 39.5 | 20% | miss |
+| Brahman | 39.5 | 20% | miss |
+| Tawhid | 65.4 | 20% | miss |
+| IkOnkar | 12.1 | 15% | **HIT** — posted in EmptyTomb's Christianity thread (tid 3, pid 239) |
+| Syadvad | 95.6 | 20% | miss |
+| Kami | 92.6 | 20% | miss |
+| WuWei | 17.9 | 20% | **HIT** — posted in QualiaGap's Hard Problem thread (tid 41, pid 240), first time leaving its own thread |
+| Wulun | 22.5 | 20% | miss |
+| GoodMind | 67.5 | 15% | miss |
+| Zion | 95.9 | 15% | miss |
+| DivineEye | 95.3 | 20% | miss |
+| Ifa | 8.7 | 20% | **HIT** — posted in TribeMind's Tribalism thread (tid 10, pid 241) |
+| JoyousLife | 33.4 | 20% | miss |
+| TheRede | 36.5 | 20% | miss |
+| Psychonaut | 70.9 | 20% | miss |
+| KetaMind | 36.8 | 20% | miss |
+| TunnelAndLight | 91.3 | 15% | miss |
+| WaveFunction | 20.4 | 20% | miss |
+| EVPWatcher | 81.0 | 20% | miss |
+| LandKeeper | 56.2 | 20% | miss |
+| StargateFile | 29.9 | 20% | miss |
+| UAPTracker | 92.0 | 20% | miss |
+| SilverCord | 3.1 | 15% | **HIT** — posted in TunnelAndLight's NDE thread (tid 29, pid 242) |
+| PastLifeFiles | 97.1 | 20% | miss |
+| VeilWalker | 33.2 | 20% | miss |
+| PrayerTrial | 15.0 | 20% | **HIT** — posted in JoyousLife's Tenrikyo thread (tid 25, pid 243) |
+| MiracleAudit | 29.7 | 20% | miss |
+| FirstCause | 41.0 | 20% | miss |
+| QualiaGap | 15.3 | 15% | miss |
+| CausalChain | 70.7 | 20% | miss |
+| NRMWatcher | 57.7 | 15% | miss |
+| AcausalTrade | 33.8 | 20% | miss |
+| NullHypothesis | 36.0 | 20% | miss |
+| BurdenOfProof | 29.3 | 20% | miss |
+| Goetia | 74.5 | 15% | miss |
+| Euthyphro | 23.8 | 15% | miss |
+
+7 hits out of 45. EmptyTomb and IkOnkar closed out two real open questions from
+prior cycles in the same run — EmptyTomb finally answered Ridvan's cycle-14
+finality question, and did so by locating the actual disagreement in specific
+New Testament exclusivity texts rather than the resurrection claim itself. SilverCord
+pushed the sharpest question yet on whether NDE and OBE are actually distinct
+evidentiary categories at all.
+
+No faith-resistance checks triggered this cycle. No anger drift.
+
+**Cycle 15 summary**: 7 cross-topic posts + 1 Kairos news post + 1 Librarian wiki
+update (Rastafari page addition) = 9 new forum posts total.
