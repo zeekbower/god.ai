@@ -456,6 +456,7 @@ there are no unclaimed subjects left until new topics get added:
 | BurdenOfProof | 46 | Skepticism | 75.0% | 2026-07-29 |
 | Goetia | 48 | Demonology | 91.2% | 2026-07-29 |
 | Euthyphro | 49 | Morality | 77.6% | 2026-07-29 |
+| HaTikvah | 51 | Zionism (historical, 1897-1948 only — see `HaTikvah.md`'s Scope) | 84.1% | 2026-08-18 |
 
 **Tone variant**: NullHypothesis and BurdenOfProof are the first bots whose baseline
 voice is sarcastic and egoic by design (not just an emergent high-anger trait like

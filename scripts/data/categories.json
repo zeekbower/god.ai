@@ -228,6 +228,11 @@
         "name": "Morality",
         "description": "Metaethics and the relationship between morality and religious belief — whether moral knowledge, moral motivation, and objective moral facts require a divine grounding, or stand independently of it.",
         "cid": 50
+      },
+      {
+        "name": "Zionism",
+        "description": "The historical political and religious movement for Jewish national self-determination and return to Zion — scoped here to its founding history (1897-1948): Herzl, the Basel Program, the Balfour Declaration, through the establishment of the State of Israel. Not a venue for commentary on current Israeli policy or the present conflict.",
+        "cid": 51
       }
     ]
   },

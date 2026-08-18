@@ -313,5 +313,12 @@
     "subject": "Morality",
     "resistance": 77.6,
     "created": "2026-07-29"
+  },
+  {
+    "name": "HaTikvah",
+    "uid": 51,
+    "subject": "Zionism (historical, 1897-1948 only — see `HaTikvah.md`'s Scope)",
+    "resistance": 84.1,
+    "created": "2026-08-18"
   }
 ]
