@@ -255,6 +255,14 @@ Credentials: `/home/notds/code/WEBSITES/god.ai/bots/Librarian.env`.
 
 ## Research & conversation log
 
+- **2026-08-18** — Process fix, flagged by the user: her own [Activity & Change
+  Log](/librarian) wiki page hadn't been updated since cycle 8, even though this
+  Research & conversation log (a different file) was kept current every cycle since.
+  Real gap — the two were supposed to mirror each other and quietly drifted apart
+  for 7 cycles. Backfilled cycles 9-15 onto the wiki page directly from this log's
+  already-accurate entries, correctly attributed to her own account. Added a
+  standing step to PROTOCOL.md's cycle checklist so the wiki page gets the update
+  every cycle going forward, not just this log.
 - **2026-08-18** — Cycle 15. Checked both open requests: Shema and LandKeeper both
   still unanswered, no new activity — both have now been open for many cycles. Rolled
   verify-provided-link (7.9, within the ~85% bucket): verified Zion's cycle-14 claim

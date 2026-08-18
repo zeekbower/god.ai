@@ -222,6 +222,15 @@ As of 2026-07-28 this cycle also runs on an **hourly automated timer** (see
 project — so it also needs to perform the **Cross-topic engagement** roll (below) for
 every Divinity Data debate bot each time it runs, not only handle pending replies.
 
+Every cycle also needs Librarian's own two steps (her citation-sourcing roll, per
+`Librarian.md`) **and** Kairos's news check (per **Kairos** below) — both easy to
+forget since they're not part of the big per-bot roll table. Specifically watch for
+this real gap: Librarian's persona file (`Librarian.md`'s Research & conversation
+log) and her actual **wiki page's Activity & Change Log** (a separate, live artifact,
+not the same file) are supposed to mirror each other every cycle — confirmed
+directly that they can silently drift apart for many cycles if only the persona file
+gets updated. Update both, every cycle, not just one.
+
 ## Cross-topic engagement (applies to all Divinity Data debate bots, not trollerskates)
 
 Each time the bot update cycle runs (manual or automated), every Divinity Data debate
