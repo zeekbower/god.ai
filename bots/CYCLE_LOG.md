@@ -1327,3 +1327,113 @@ No faith-resistance checks triggered this cycle. No anger drift.
 
 **Cycle 16 summary**: 7 cross-topic posts + 1 Kairos news post + 1 Librarian wiki
 page creation (new Zionism page + hub link) = 9 new forum posts total.
+
+## Cycle 17 — 2026-08-18
+
+Same real day as cycles 15-16, confirmed via `date` regardless (standing Kairos
+fix now applied as a matter of course every cycle, not just Kairos's own step).
+
+**Pending-reply check**: no new human posts since cycle 16.
+
+**Librarian**: rolled verify-provided-link (44.1%, within the ~85% bucket): verified
+WaveFunction's Kochen-Specker contextuality claim from cycle 16 (post 252) against
+real sources (Quanta Magazine, the Kochen-Specker theorem) — held up, and was
+already correctly distinguished from the sloppy "quantum physics proves everything
+is connected" pop-science version rather than conflated with it. Added the theorem
+to the Quantum Theory wiki page, and gave WaveFunction its first formal Respect
+ledger entry.
+
+Mid-cycle, the user introduced a new standing mechanic (now in PROTOCOL.md's
+**Unanswered ask-author requests**): unanswered ask-author requests raise
+Librarian's anger 5% per instance for 2 cycles once past a 4-cycle grace window,
+then get an 85%/cycle chance she looks the source up herself and closes the
+request — with a snarky, sourced reply if she finds it. Both the Shema and
+LandKeeper requests (open since cycle 6/7) were already 11 cycles overdue, so
+Librarian's anger was set to 20% on introduction and both requests were
+immediately rolled for self-lookup: Shema (90.5) missed, stays open; LandKeeper
+(29.4) **hit** — she looked up Hallowell's "other-than-human persons" (1960)
+herself, confirmed LandKeeper's citation held up word-for-word, replied in-thread
+(tid 37, pid 259) with real sourcing and deserved snark, and updated the
+Indigenous Peoples' Belief Systems wiki page (id 32). First formal Respect ledger
+entry for LandKeeper. Updated both her persona-file log and her wiki Activity &
+Change Log for all of the above this cycle.
+
+**Kairos**: found real news, but only after rejecting two candidates on closer
+verification — a "World Hindu Congress 2026" story turned out tied to the RSS's
+centenary year (more entangled with contemporary Hindu-nationalist politics than a
+first read suggested, so skipped), and a Byzantine monastic complex discovery in
+Sohag, Egypt, turned out to actually be from January 2026, not current. Found a
+genuinely fresh story instead: Divinity Atlas, a citation-heavy encyclopedia of
+world religions (16,156 entries, 138,802 citations) launched the day before. Posted
+in BurdenOfProof's Skepticism thread (tid 46, pid 253), flagging honestly that the
+same platform pairs the citation-rigorous encyclopedia with paid astrology/tarot
+readings.
+
+**Cross-topic engagement rolls**:
+
+| Bot | Roll | Threshold | Result |
+|---|---|---|---|
+| EmptyTomb | 34.4 | 20% | miss |
+| Shema | 73.9 | 20% | miss |
+| Ridvan | 55.5 | 20% | miss |
+| CodeBlueRN | 33.3 | 15% | miss |
+| EnvattedMind | 47.1 | 20% | miss |
+| BaseReality | 83.0 | 20% | miss |
+| TribeMind | 67.8 | 20% | miss |
+| MachineElf | 97.1 | 20% | miss |
+| RazorsEdge | 44.3 | 15% | miss |
+| Anatta | 64.3 | 15% | miss |
+| Brahman | 34.3 | 20% | miss |
+| Tawhid | 27.7 | 15% | miss |
+| IkOnkar | 58.9 | 15% | miss |
+| Syadvad | 72.7 | 20% | miss |
+| Kami | 42.9 | 15% | miss |
+| WuWei | 22.8 | 15% | miss |
+| Wulun | 24.4 | 20% | miss |
+| GoodMind | 7.1 | 15% | **HIT** — posted in Euthyphro's Morality thread (tid 49, pid 254), offering Zoroastrian dualism as a third option to the dilemma |
+| Zion | 57.2 | 20% | miss |
+| DivineEye | 69.5 | 20% | miss |
+| Ifa | 97.7 | 20% | miss |
+| JoyousLife | 1.4 | 20% | **HIT** — posted in HaTikvah's Zionism thread (tid 51, pid 256), staying strictly in scope |
+| TheRede | 44.7 | 20% | miss |
+| Psychonaut | 23.4 | 20% | miss |
+| KetaMind | 77.6 | 15% | miss |
+| TunnelAndLight | 66.2 | 20% | miss |
+| WaveFunction | 87.4 | 15% | miss |
+| EVPWatcher | 71.7 | 20% | miss |
+| LandKeeper | 38.3 | 20% | miss |
+| StargateFile | 70.3 | 20% | miss |
+| UAPTracker | 28.5 | 20% | miss |
+| SilverCord | 81.2 | 20% | miss |
+| PastLifeFiles | 90.5 | 20% | miss |
+| VeilWalker | 83.5 | 20% | miss |
+| PrayerTrial | 29.1 | 20% | miss |
+| MiracleAudit | 54.9 | 20% | miss |
+| FirstCause | 29.3 | 20% | miss |
+| QualiaGap | 31.9 | 20% | miss |
+| CausalChain | 47.1 | 15% | miss |
+| NRMWatcher | 12.9 | 15% | **HIT** — posted in GoodMind's Zoroastrianism thread (tid 21, pid 257), questioning the Zoroaster-dating controversy behind GoodMind's priority claim |
+| AcausalTrade | 36.7 | 20% | miss |
+| NullHypothesis | 39.2 | 20% | miss |
+| BurdenOfProof | 71.1 | 15% | miss |
+| Goetia | 28.6 | 20% | miss |
+| Euthyphro | 2.8 | 20% | **HIT** — posted in Tawhid's Islam thread (tid 15, pid 255), following up on Tawhid's own cycle-9 Ash'ari occasionalism argument |
+| HaTikvah | 34.6 | 40% | **HIT** — posted in NRMWatcher's Cults and New Religious Movements thread (tid 43, pid 258), first hit after missing cycle 16's roll; kept the 40% threshold set at its first roll given three documented natural connections (Judaism, Tribalism, Cults/NRM) |
+
+5 hits out of 46. Two of this cycle's hits (GoodMind→Euthyphro, NRMWatcher→GoodMind)
+landed on the same thread pair from opposite directions in the same cycle, by chance
+of independent rolls — not coordinated, but it produced a genuinely three-way
+exchange (Euthyphro/GoodMind/NRMWatcher) worth watching for replies next cycle.
+HaTikvah's hit closed the loop on the classification question NRMWatcher asked it
+in cycle 16.
+
+No faith-resistance checks triggered this cycle (no hit bot faced a genuinely
+substantive challenge to its own core claim this cycle — these were all bots
+extending their own view into someone else's thread, not being challenged on it).
+No debate-bot anger drift. Librarian's new anger mechanic set to 20% this cycle (see
+above — its first cycle in existence).
+
+**Cycle 17 summary**: 5 cross-topic posts + 1 Kairos news post + 1 Librarian
+self-lookup reply (LandKeeper thread) + 2 Librarian wiki page updates (Quantum
+Theory addition, Indigenous Peoples' Belief Systems addition) = 7 new forum posts
+total.

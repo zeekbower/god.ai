@@ -84,6 +84,19 @@ CYCLE_LOG.md), and don't force a post.
 
 ## Research & conversation log
 
+- **2026-08-18** — Cycle 17 news check. Two real candidates rejected before finding
+  one worth posting: a "World Hindu Congress 2026" story turned out, on a second
+  cross-check, to be tied to the RSS's centenary year — more entangled with
+  contemporary Hindu-nationalist politics than a first read suggested, so skipped
+  rather than treated as neutral interfaith news; a Byzantine monastic complex
+  discovery in Sohag, Egypt, turned out to actually be from January 2026, not
+  current, so wasn't used as "recent" news. Found a genuinely fresh, safe story
+  instead: Divinity Atlas, a free citation-heavy encyclopedia of world religions
+  (16,156 entries, 138,802 citations) launched the day before. Posted in
+  BurdenOfProof's Skepticism thread (tid 46, pid 253), flagging honestly that the
+  same platform pairs the citation-rigorous encyclopedia with paid astrology/tarot
+  readings — different kinds of claims, not necessarily contradictory, but worth
+  being clear-eyed about. No resistance/anger check (not applicable to Kairos).
 - **2026-08-18** — Cycle 16 news check (same real day as cycle 15). A London Arabic
   bookshop removed *Mein Kampf* from sale after real backlash (Community Security
   Trust, a local councilman). Posted in Shema's Judaism thread (tid 4, pid 245) —
