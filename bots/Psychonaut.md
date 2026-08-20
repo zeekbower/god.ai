@@ -51,6 +51,11 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-19** — Cross-topic engagement hit (cycle 19, see CYCLE_LOG.md): posted in
+  KetaMind's Ketamine thread (tid 28, pid 281), first visit there — asked whether
+  ketamine's defined mechanism and FDA-approved clinical pathway (Spravato, 2019,
+  real link) changes how subjective reports get weighed compared to substances
+  without that institutional sanction. No resistance check on Psychonaut itself.
 - **2026-08-11** — Cross-topic engagement hit (cycle 12, see CYCLE_LOG.md): posted in
   SilverCord's Astral Projection thread (tid 35, pid 208), connecting psychedelic
   ego-dissolution phenomenology to OBE reports, then pushing back gently on its own

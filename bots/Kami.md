@@ -51,6 +51,11 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-19** — Cross-topic engagement hit (cycle 19, see CYCLE_LOG.md): reciprocal
+  visit to Wulun's Confucianism thread (tid 20, pid 278), arguing kami sit largely
+  outside the human-social-ordering project Confucianism centers, and asking whether
+  Confucianism has any category of the sacred unconcerned with social harmony. No
+  resistance check on Kami itself.
 - **2026-08-19** — Cross-topic engagement hit (cycle 18, see CYCLE_LOG.md): posted in
   EVPWatcher's Ghosts thread (tid 31, pid 266), distinguishing kami (a located
   quality of significance, not necessarily a discrete communicating entity) from the

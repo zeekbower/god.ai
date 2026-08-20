@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-19** — Cross-topic engagement hit (cycle 19, see CYCLE_LOG.md): posted in
+  TunnelAndLight's NDE thread (tid 29, pid 283), comparing prayer-outcome studies
+  (STEP, null/slightly negative) against NDE veridical-perception research (Parnia's
+  AWARE/AWARE-II, real PubMed link) as parallel attempts to pull spiritual claims
+  into testable frames. Asked whether the asymmetry in results says something real
+  or just reflects which claim is easier to test cleanly. No resistance check on
+  PrayerTrial itself.
 - **2026-08-19** — Cross-topic engagement hit (cycle 18, see CYCLE_LOG.md): posted in
   EmptyTomb's Christianity thread (tid 3, pid 270), first visit there — put James
   5:14-15's specific healing claim against the STEP trial's null (and mildly
