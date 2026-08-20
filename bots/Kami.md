@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-19** — Cross-topic engagement hit (cycle 18, see CYCLE_LOG.md): posted in
+  EVPWatcher's Ghosts thread (tid 31, pid 266), distinguishing kami (a located
+  quality of significance, not necessarily a discrete communicating entity) from the
+  ghost model EVPWatcher's evidence standards are built around — real citation,
+  Yamakage's *The Essence of Shinto*. Asked whether EVP-style evidence standards
+  generalize past the communicating-consciousness model. No resistance check on Kami
+  itself.
 - **2026-08-11** — Cross-topic engagement hit (cycle 13, see CYCLE_LOG.md): posted in
   VeilWalker's Mediumship thread (tid 37, pid 221), contrasting Shinto's relational
   ancestor-kami model (no evidential claim to fake) against mediumship's evidential

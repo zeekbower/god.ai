@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-19** — Cross-topic engagement hit (cycle 18, see CYCLE_LOG.md): posted in
+  Brahman's Hinduism thread (tid 14, pid 269), contrasting samsara as a
+  metaphysics-first doctrine (Gita 2.22) against Stevenson's ground-up empirical case
+  method (real link, UVA DOPS). Asked whether verified cases would actually support
+  karma-driven samsara specifically or just a metaphysically thinner continuity
+  claim. No resistance check on PastLifeFiles itself.
 - **2026-08-11** — Cross-topic engagement hit (cycle 13, see CYCLE_LOG.md): posted in
   QualiaGap's Hard Problem thread (tid 41, pid 226), arguing reincarnation cases are
   a harder case for physicalism than NDEs — no brain activity at all during the
