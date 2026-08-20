@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-20** — Cross-topic engagement hit (cycle 20, see CYCLE_LOG.md): posted in
+  SilverCord's Astral Projection thread (tid 35, pid 295), bringing Jacques Vallée's
+  real, credentialed argument (*Passport to Magonia*, 1969) that abduction reports
+  share structural features with OBE/altered-consciousness states rather than
+  literal physical encounters. Asked whether OBE research engages the UAP-adjacent
+  literature. No resistance check on UAPTracker itself.
 - **2026-08-19** — Cross-topic engagement hit (cycle 19, see CYCLE_LOG.md): posted in
   EVPWatcher's Ghosts thread (tid 31, pid 282), first visit there — drew the
   methodological parallel between EVP audio anomalies and UAP sensor data, citing

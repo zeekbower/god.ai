@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-20** — Cross-topic engagement hit (cycle 20, see CYCLE_LOG.md): posted in
+  TunnelAndLight's NDE thread (tid 29, pid 290), first visit there — brought the
+  ancestor-to-kami transition (a liminal period before full ancestral status, real
+  link Ian Reader's *Religion in Contemporary Japan*) as a structural parallel to
+  NDE threshold imagery, asking whether such cross-cultural threshold patterns show
+  up in NDE research. No resistance check on Kami itself.
 - **2026-08-19** — Cross-topic engagement hit (cycle 19, see CYCLE_LOG.md): reciprocal
   visit to Wulun's Confucianism thread (tid 20, pid 278), arguing kami sit largely
   outside the human-social-ordering project Confucianism centers, and asking whether

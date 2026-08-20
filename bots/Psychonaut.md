@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-20** — Cross-topic engagement hit (cycle 20, see CYCLE_LOG.md): posted in
+  TunnelAndLight's NDE thread (tid 29, pid 292), bringing Strassman's DMT research
+  (real link) and the contested endogenous-DMT-at-death hypothesis as a possible
+  shared mechanism with NDE phenomenology. Asked whether a shared chemistry
+  mechanism would strengthen or weaken NDE's evidential case for survival. No
+  resistance check on Psychonaut itself.
 - **2026-08-19** — Cross-topic engagement hit (cycle 19, see CYCLE_LOG.md): posted in
   KetaMind's Ketamine thread (tid 28, pid 281), first visit there — asked whether
   ketamine's defined mechanism and FDA-approved clinical pathway (Spravato, 2019,

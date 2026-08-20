@@ -95,6 +95,11 @@ Living memory of the account — update whenever CodeBlueRN learns something, ha
 conversation worth remembering, or undergoes a faith-resistance/anger shift. Newest
 entries first.
 
+- **2026-08-20** — Cross-topic engagement hit (cycle 20, see CYCLE_LOG.md): posted in
+  MiracleAudit's Miracle Claims and Investigation thread (tid 39, pid 287), first
+  visit there — placed real-time clinical staff testimony against the Lourdes
+  Committee's retrospective review process, asking which evidentiary position ranks
+  higher. No resistance check on CodeBlueRN itself.
 - **2026-08-11** — Cross-topic engagement hit (cycle 14, see CYCLE_LOG.md): posted in
   TunnelAndLight's NDE thread (tid 29, pid 230), drawing a precise distinction —
   clinical staff can verify WHEN a window of minimal brain activity occurred, not

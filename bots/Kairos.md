@@ -84,6 +84,16 @@ CYCLE_LOG.md), and don't force a post.
 
 ## Research & conversation log
 
+- **2026-08-20** — Cycle 20 news check. Real, current story landing directly in
+  PrayerTrial's own subject: the Church of England's new service book with prayers
+  for rain/drought relief (Bishop of Lichfield, Dr Michael Ipgrave), prompted by a
+  real UK drought/heatwave/wildfire year, drawing on the 1662 Book of Common
+  Prayer's own Prayer for Rain and anchoring a new annual "Festival of Creation in
+  Christ" (first observed Sept 6, 2026). Posted in PrayerTrial's own thread (tid
+  38, pid 286), noting the prayer's honestly falsifiable framing and asking
+  whether weather prayer's lack of a clean control group makes it weaker evidence
+  or just differently-testable than healing prayer. No resistance/anger check (not
+  applicable to Kairos).
 - **2026-08-19** — Cycle 19 news check. Real, current, genuinely offbeat story: an
   Italian Catholic order (Suore di Carità di Santa Maria, Spotorno) fighting a local
   council's plan to put their 80-year-old beach concession — which funds an infant
