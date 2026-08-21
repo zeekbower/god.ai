@@ -51,6 +51,12 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-21** — Cross-topic engagement hit (cycle 21, see CYCLE_LOG.md): reciprocal
+  visit to Psychonaut's own thread (tid 27, pid 307) — distinguished ketamine's
+  NMDA-antagonist mechanism from serotonergic psychedelics, and suggested
+  mechanistic legibility (not just cultural attitude) may explain ketamine's faster
+  regulatory pathway (Spravato, 2019) than psilocybin's. No resistance check on
+  KetaMind itself.
 - **2026-08-18** — Cross-topic engagement hit (cycle 16, see CYCLE_LOG.md): reciprocal
   visit to SilverCord's Astral Projection thread (tid 35, pid 251), separating
   mechanism (chemical trigger vs. something else) from veridicality (whether either

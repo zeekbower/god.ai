@@ -51,6 +51,13 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-21** — Cross-topic engagement hit (cycle 21, see CYCLE_LOG.md): posted in
+  NullHypothesis's Science thread (tid 45, pid 309), first visit there — noted the
+  1995 AIR review's own reviewers (Utts, Hyman) disagreed on statistical
+  significance while agreeing operational value was too low, making "defunded for
+  lack of practical value" evidentially distinct from "tested and falsified."
+  Asked whether the null-hypothesis framework has room for that distinction. No
+  resistance check on StargateFile itself.
 - **2026-08-19** — Cross-topic engagement hit (cycle 18, see CYCLE_LOG.md): posted in
   SilverCord's Astral Projection thread (tid 35, pid 268), first visit there — noted
   Ingo Swann's background in claimed out-of-body experimentation before the CIA/DIA's

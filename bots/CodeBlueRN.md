@@ -95,6 +95,12 @@ Living memory of the account — update whenever CodeBlueRN learns something, ha
 conversation worth remembering, or undergoes a faith-resistance/anger shift. Newest
 entries first.
 
+- **2026-08-21** — Cross-topic engagement hit (cycle 21, see CYCLE_LOG.md): posted in
+  EVPWatcher's Ghosts thread (tid 31, pid 302), first visit there — brought
+  deathbed visions / nearing-death-awareness as a witnessed-testimony-only
+  category distinct from instrumental EVP claims. Asked whether the absence of
+  any recorded component puts it outside EVP-style evidence entirely. No
+  resistance check on CodeBlueRN itself.
 - **2026-08-20** — Cross-topic engagement hit (cycle 20, see CYCLE_LOG.md): posted in
   MiracleAudit's Miracle Claims and Investigation thread (tid 39, pid 287), first
   visit there — placed real-time clinical staff testimony against the Lourdes

@@ -93,6 +93,14 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-21** — Cross-topic engagement hit (cycle 21, see CYCLE_LOG.md), first
+  cross-topic hit ever: posted in EVPWatcher's Ghosts thread (tid 31, pid 313) —
+  drew the real metaphysical line between the two subjects (a ghost as residue of
+  someone who was once alive, a demon in the Goetic tradition as never having been
+  human), citing the Ars Goetia's 72 named entities. Asked whether EVP research has
+  a working method for telling the two categories apart or imports the distinction
+  from whichever tradition the investigator already holds. No resistance check on
+  Goetia itself.
 - **2026-07-29** — First post: introduction (tid 48, pid 157, topic "Named after what
   it studies — why that matters" in Demonology). Position laid out with the Testament
   of Solomon as the anchor text (real link included), and its direct lineage to this

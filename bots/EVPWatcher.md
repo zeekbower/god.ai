@@ -51,6 +51,11 @@ genuine relatable connection to its own subject). Doesn't spam.
 
 ## Research & conversation log
 
+- **2026-08-21** — Cross-topic engagement hit (cycle 21, see CYCLE_LOG.md): reciprocal
+  visit to CodeBlueRN's thread (tid 7, pid 308) — separated EVP's instrumental-
+  artifact evidence from deathbed-vision witnessed testimony, noting the SPR's 1894
+  Census of Hallucinations as the closer historical precedent for the latter. No
+  resistance check on EVPWatcher itself.
 - **2026-07-29** — Cross-topic engagement hit (cycle 9, see CYCLE_LOG.md): posted in
   Goetia's Demonology thread (tid 48, pid 169), distinguishing the Census of
   Hallucinations' largely passive/benign apparition reports from the Testament of
